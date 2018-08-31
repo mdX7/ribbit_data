@@ -1,0 +1,30 @@
+Content-Type: multipart/alternative; boundary="a091c5cf-c147-4dca-a08a-a74e78b801dd"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: s1t/versions
+
+--a091c5cf-c147-4dca-a08a-a74e78b801dd
+Content-Disposition: version
+
+Region!STRING:0|BuildConfig!HEX:16|CDNConfig!HEX:16|KeyRing!HEX:16|BuildId!DEC:4|VersionsName!String:0|ProductConfig!HEX:16
+## seqn = 42626
+us|34e768c23fc2ce75b8ca85b81a9437cb|0a3b78ee19d9358ab4a5b9cc25e0faa1||2411|1.19.0.2411|7a872b35bb47207339f576f5fd72da36
+eu|34e768c23fc2ce75b8ca85b81a9437cb|0a3b78ee19d9358ab4a5b9cc25e0faa1||2411|1.19.0.2411|7a872b35bb47207339f576f5fd72da36
+cn|34e768c23fc2ce75b8ca85b81a9437cb|0a3b78ee19d9358ab4a5b9cc25e0faa1||2411|1.19.0.2411|7a872b35bb47207339f576f5fd72da36
+kr|34e768c23fc2ce75b8ca85b81a9437cb|0a3b78ee19d9358ab4a5b9cc25e0faa1||2411|1.19.0.2411|7a872b35bb47207339f576f5fd72da36
+tw|34e768c23fc2ce75b8ca85b81a9437cb|0a3b78ee19d9358ab4a5b9cc25e0faa1||2411|1.19.0.2411|7a872b35bb47207339f576f5fd72da36
+
+--a091c5cf-c147-4dca-a08a-a74e78b801dd
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MDgz
+MTE2MDAyNFowLwYJKoZIhvcNAQkEMSIEIIfGtBjp2G0T++tM8G4PAiMD4NhuIppb09FBhu0KxBjGMA0GCSqGSIb3DQEBAQUABIIB
+ACUlDPcKzEN/1dATQ44JWNU/PpmCileZvpcRvPraLQtOdDaPWJJArR1Mo8/ITnBXNon9Ov5zcnd2T9xR+mjVeR48qN8WQ1+oeDXL
+loPNJdLeZD4Ori2mzJQQw947YR4qvl30z2KV5QHhrA+L8n7AhVHqzaqY56h9Pntx4mUN/khtwHhMw5L6v0eQ27kanuejlWyLuQ3u
++8eUFmk/toGeFk6WTT51bYV9T21UC0rwJ8r/Eum21P3DXpPQBCmXTQXAYzmp40HlWgwQpuTN83f+g4wviPr7WvH7Z3LOd0UITpQ4
+GgGCun9KgqUN9Whe3MSq18IfMZg4i1fajZVLbbyEQzQ=
+--a091c5cf-c147-4dca-a08a-a74e78b801dd--
+Checksum: 687be27f6ad9569490334c33de47229e23125fc92df3d32ccf84539f76a57c10
