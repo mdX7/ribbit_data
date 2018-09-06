@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="f80b5793-0bae-48d1-9c9f-646b9cbe7a96"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2t/cdns
+
+--f80b5793-0bae-48d1-9c9f-646b9cbe7a96
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 43843
+eu|tpr/dst2|edgecast.blizzard.com blzddist1-a.akamaihd.net level3.blizzard.com|http://blzddist1-a.akamaihd.net http://edgecast.blizzard.com http://level3.blizzard.com https://blzddist1-a.akamaihd.net/?fallback=1|tpr/configs/data
+kr|tpr/dst2|blzddistkr1-a.akamaihd.net blzddist1-a.akamaihd.net blizzard.nefficient.co.kr|http://blizzard.nefficient.co.kr http://blzddist1-a.akamaihd.net http://blzddistkr1-a.akamaihd.net https://blzddist1-a.akamaihd.net/?fallback=1 https://blzddistkr1-a.akamaihd.net/?fallback=1|tpr/configs/data
+us|tpr/dst2|level3.blizzard.com edgecast.blizzard.com blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net http://edgecast.blizzard.com http://level3.blizzard.com https://blzddist1-a.akamaihd.net/?fallback=1|tpr/configs/data
+
+--f80b5793-0bae-48d1-9c9f-646b9cbe7a96
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MDkw
+NjIxMTU1OFowLwYJKoZIhvcNAQkEMSIEIEaaxj1DLzLQ7tXII6xmyrU+N7u1/XsBKLn22SxQvSOqMA0GCSqGSIb3DQEBAQUABIIB
+AJnmWafzHbosWJpNmNugjY+eyVoYTt+WtbTE3mfO3zyP1UEsq5pZdlUJ8KfyLQ11D5j20WSUh5LoDUqrSD314CNTzb4UcdD0tOFN
+qM+AaSLdtJP+pl/A4DjkpuK7kFzIAsHxHOQx/TFDdHhkoDvyi97zjgwcyKXuXA6L1aIwpWiPsfx8H0rWylyZQYSHwYywJqAmbHil
+kV78s0424PjXsyHgtFB6mONXhgRbKMaSLbGcvknHmZ7SR0czN0jZuN/hd6bsngw+cZ/aJJNZO5E7CuqAC1CoA+71LrT+yClcGNex
+t4s9xRQBDBUokY04XfHU0NYBm3E44M6BY73GOuSQLU0=
+--f80b5793-0bae-48d1-9c9f-646b9cbe7a96--
+Checksum: 21196263f719e0f3cd30c771c7f11d30f354ab3b0c8998db9c9a34ea83e5f028
