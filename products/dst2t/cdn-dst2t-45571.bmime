@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="993911ef-543b-42e1-a570-dee4a454c152"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2t/cdns
+
+--993911ef-543b-42e1-a570-dee4a454c152
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 45571
+eu|tpr/dst2|blzddist1-a.akamaihd.net level3.blizzard.com edgecast.blizzard.com|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://edgecast.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2|blzddist1-a.akamaihd.net blizzard.nefficient.co.kr blzddistkr1-a.akamaihd.net|http://blizzard.nefficient.co.kr/?maxhosts=4 http://blzddist1-a.akamaihd.net/?maxhosts=4 http://blzddistkr1-a.akamaihd.net/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2|blzddist1-a.akamaihd.net cdn.blizzard.com level3.blizzard.com edgecast.blizzard.com|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://cdn.blizzard.com/?maxhosts=4 http://edgecast.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--993911ef-543b-42e1-a570-dee4a454c152
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MDkx
+MzIyMTkzMFowLwYJKoZIhvcNAQkEMSIEIH8dWufer3SDlAyavJLClZGtnIQekmSFGlv43y77gyZRMA0GCSqGSIb3DQEBAQUABIIB
+AEw4C7Hn+29GegwTA2hi6IrI+K9Vo9N9Ry0Qpc6qNA19G0GCQlkwusLw8t6MT/5lo5mJ0ORTzzh9mJZF1Ymn6ixxJ+bRrzXGSDJE
+FulSE61FWl1SBEyZBsxrF4Rcagg6PirCQiU9v98o1dZLVMrEI9AqiV3B7hZ9GU7ONAHKFKLu3e+/IQee8AIk1gw711aw92ML+PwD
+PKv1pN+BAvyXy/4wOjO9Bgdgdo4sDi5MyKNx9U+OAnaBsbFfpssagAr7R3MBMnxxYvVVbJZOiSz8NbBg1nw3fNMvwWvqi7w0xUB4
+U2MxKG3eSDUPIqBh6jWBiAoSq0ZiZmc9zO+ePkaFAms=
+--993911ef-543b-42e1-a570-dee4a454c152--
+Checksum: 8f7283e0b2527344b1d06624764b78df08f82aff0263476d935717bbf251fd70
