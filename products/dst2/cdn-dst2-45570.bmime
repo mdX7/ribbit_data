@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="3a1209cc-ea61-4eac-bbcc-9a80fc6c24f0"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2/cdns
+
+--3a1209cc-ea61-4eac-bbcc-9a80fc6c24f0
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 45570
+eu|tpr/dst2|level3.blizzard.com edgecast.blizzard.com blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://edgecast.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2|blzddist1-a.akamaihd.net blizzard.nefficient.co.kr blzddistkr1-a.akamaihd.net|http://blizzard.nefficient.co.kr/?maxhosts=4 http://blzddist1-a.akamaihd.net/?maxhosts=4 http://blzddistkr1-a.akamaihd.net/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2|edgecast.blizzard.com blzddist1-a.akamaihd.net cdn.blizzard.com level3.blizzard.com|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://cdn.blizzard.com/?maxhosts=4 http://edgecast.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--3a1209cc-ea61-4eac-bbcc-9a80fc6c24f0
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MDkx
+MzIyMTkzMFowLwYJKoZIhvcNAQkEMSIEILVx8uomMMKWMYd6roR9dtZS8MjoA6gos3cDWoF6NRX1MA0GCSqGSIb3DQEBAQUABIIB
+ABPlYa7cjNTYw26tBSeV4E66C/tkdMNBE8RfCdLIeaXGDwuBUE79VDh4DUCEKvigIGmwVGrWe+//2EjinCCqN9S+l/jcQJH6RZHm
+MeE/hHW502onCraKmQ82GVAEZF1myI2fV8cDY3RNXGKz0BUbJ3nLSV8mwyDkHUPVnDOn6qTluzB23KRhP4ndSmhcpejHiFf6MdVY
+F5LsMWrRszC8xMTaGKWkEmyrt68eSnYSBdDxQH3yXcP51MbY5NX+HgOuurAz5XEJJ0XPtNy46ntwWfbYqi4/rOZ9F+kSQXaglBPt
+LRsCKrC5KNwb8HhCbjAtMDBC98skSJlYrBJOZS51Q0w=
+--3a1209cc-ea61-4eac-bbcc-9a80fc6c24f0--
+Checksum: 3b5ff5f08a45069e647dacac9cc1da4606a10fe0c10f4cc8a687901f33a223e1
