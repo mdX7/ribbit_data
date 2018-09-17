@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="f40112c8-ac5f-44e7-8746-e60e2725dccc"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2t/cdns
+
+--f40112c8-ac5f-44e7-8746-e60e2725dccc
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 46723
+eu|tpr/dst2|cloudfront-eu.cdn.blizzard.com level3.blizzard.com llnw.eu.blizzard.com edgecast.blizzard.com blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://cloudfront-eu.cdn.blizzard.com/?maxhosts=4 http://edgecast.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 http://llnw.eu.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://cloudfront-eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://llnw.eu.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2|blizzard.nefficient.co.kr blzddistkr1-a.akamaihd.net blzddist1-a.akamaihd.net|http://blizzard.nefficient.co.kr/?maxhosts=4 http://blzddist1-a.akamaihd.net/?maxhosts=4 http://blzddistkr1-a.akamaihd.net/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2|cloudfront-us.cdn.blizzard.com edgecast.blizzard.com blzddist1-a.akamaihd.net llnw.us.blizzard.com cdn.blizzard.com level3.blizzard.com|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://cdn.blizzard.com/?maxhosts=4 http://cloudfront-us.cdn.blizzard.com/?maxhosts=4 http://edgecast.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 http://llnw.us.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://cdn.blizzard.com/?fallback=1&maxhosts=4 https://cloudfront-us.cdn.blizzard.com/?fallback=1&maxhosts=4 https://llnw.us.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--f40112c8-ac5f-44e7-8746-e60e2725dccc
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MDkx
+NzE4MDUzMFowLwYJKoZIhvcNAQkEMSIEIEyM7mwBqrqy15TgHlR0mJSsFoE68AgalB4nr5RGD/ICMA0GCSqGSIb3DQEBAQUABIIB
+ADPDAg8s/ZvHj7J0qg02Y7B0NwUDPE2ZrbDPX57HqukscEwDPyzgH59feppDYTmBsfWe9luBBZBgg7C+YMTsf1JEPBGtoqqxcSiT
+ox54A0h1A1QwwFVmE8T4BNuLAuYUQrEVRE7pRPeL2YY47DCmVAguCuQL+y/ok1iB0v6wdPyBrZeI2sktUDmt2iDoQDGmdDr998pj
+uET2pJxmh+EOC1ZIHdqqrO4lOk8jaj9vZfuYJXTBM7GQfNuUyb8++7bARhXWzFA52KiinlmdzYkHNKK47nSlybtIBEpB0iTxLsOn
+J+gkG8s696IClu8+1QmZcotZ4J7KaSC6k84mY4b1miE=
+--f40112c8-ac5f-44e7-8746-e60e2725dccc--
+Checksum: 4976b73a5fa717543f525bab76df02c4dd5b0081a82969c2ca4bace37f4e6662
