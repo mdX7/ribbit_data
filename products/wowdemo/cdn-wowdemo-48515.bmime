@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="db8951ea-2d8e-4a60-9376-0545e9484878"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: wowdemo/cdns
+
+--db8951ea-2d8e-4a60-9376-0545e9484878
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 48515
+eu|tpr/wowdev|level3.blizzard.com blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/wowdev|blzddist1-a.akamaihd.net blzddistkr1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://blzddistkr1-a.akamaihd.net https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/wowdev|level3.blizzard.com us.cdn.blizzard.com blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--db8951ea-2d8e-4a60-9376-0545e9484878
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MDky
+MTE4MzE0MVowLwYJKoZIhvcNAQkEMSIEIIR4bTv5s5mf7aeH8cnutasebMt97MNSQ6FM7XhwCVZrMA0GCSqGSIb3DQEBAQUABIIB
+ACXjRpM2lKkhASDvMe/jQiOnD1vRL2jyWJKJ+M+08KkYLXCngqSxzU0xy51HVMqC0UzBAhiUrLiGhvdoUvVwXseqeYvSZ2jqufXG
+h1L+wnQ67/Z7GK0G88kqiya1MKKYS0jHzO4W1+Wib5V9UocxukP9aoBo30EMq0CXFhKL5J9yN+E/N1267P+aw5Vy153RkEWk38j2
+cSW72dTNSlm8s6UOYUZmFWWxF5KiWuZAlOH+swdpUNa8UfY7SjodRcx15d6X2zAyenVHrhx18s5FZKxAOunPfV1jdW1iFbIH0jQw
+oV7+KimuRoL8yhfARk79dA/bd8QXetEtBbtJG2FsOW0=
+--db8951ea-2d8e-4a60-9376-0545e9484878--
+Checksum: e231f8e724890aca477ca5efdfc7bc9c31e1da124510b4f420ebcf9c2d1fbe74
