@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="90cd305d-4ab4-4c64-9af5-01243638fdc0"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: wowdev/cdns
+
+--90cd305d-4ab4-4c64-9af5-01243638fdc0
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 48514
+eu|tpr/wowdev|blzddist1-a.akamaihd.net level3.blizzard.com|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/wowdev|blzddistkr1-a.akamaihd.net blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://blzddistkr1-a.akamaihd.net https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/wowdev|level3.blizzard.com us.cdn.blizzard.com blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--90cd305d-4ab4-4c64-9af5-01243638fdc0
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MDky
+MTE4MzE0MVowLwYJKoZIhvcNAQkEMSIEIGUjPG35cxjR2uUUdmpt8IWmjx5Zlf39J+2sCXaF+rkFMA0GCSqGSIb3DQEBAQUABIIB
+AAH2Gy7c13YTbZddkjQZVDiQl90Ix1JyKuRs1UhuJAVLHAfujgGkQEOCAGua2jy9kSieXio+h3csO+izG6XZV2s4PromRFCIVOpQ
+GaQVfjHy0DqgpHRG/5yE6kc6rjMKwSvka+EHvtSUGf06wUWOonk9i8ojNQ8Z/kls0bAJFlKwALhWnrCsfzWxHKM6TnAfn31VlN+7
+rOM1tbVea58MCaCNVRx/7JOedSVX5PvX+vUQIwPfa8bwJa8v1S156FVSJ3JQ92ihKcJeecKzLTz66ayDhapEytrXw56FV55vlzVK
+oYKjrJGtqA7V3ndW/hM25/pcI0PZXAIsx8x5IN3ANhU=
+--90cd305d-4ab4-4c64-9af5-01243638fdc0--
+Checksum: a6b700a4ba1368ed30cbbcbdf1decb5912ca296bfd26812595432f83757a6bc9
