@@ -1,0 +1,30 @@
+Content-Type: multipart/alternative; boundary="3ce2c266-9159-4786-b350-37db18917efd"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: hsc/cdns
+
+--3ce2c266-9159-4786-b350-37db18917efd
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 48835
+eu|tpr/hs|level3.blizzard.com blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/hs|blzddist1-a.akamaihd.net blizzard.nefficient.co.kr blzddistkr1-a.akamaihd.net|http://blizzard.nefficient.co.kr http://blzddist1-a.akamaihd.net http://blzddistkr1-a.akamaihd.net https://blzddist1-a.akamaihd.net/?fallback=1 https://blzddistkr1-a.akamaihd.net/?fallback=1|tpr/configs/data
+cn|tpr/hs|client04.pdl.wow.battlenet.com.cn client02.pdl.wow.battlenet.com.cn client01.pdl.wow.battlenet.com.cn blzddist1-a.akamaihd.net client05.pdl.wow.battlenet.com.cn|http://blzddist1-a.akamaihd.net http://client01.pdl.wow.battlenet.com.cn http://client02.pdl.wow.battlenet.com.cn http://client04.pdl.wow.battlenet.com.cn http://client05.pdl.wow.battlenet.com.cn https://blzddist1-a.akamaihd.net/?fallback=1 https://client01.pdl.wow.battlenet.com.cn/?fallback=1 https://client02.pdl.wow.battlenet.com.cn/?fallback=1 https://client04.pdl.wow.battlenet.com.cn/?fallback=1 https://client05.pdl.wow.battlenet.com.cn/?fallback=1|tpr/configs/data
+us|tpr/hs|level3.blizzard.com us.cdn.blizzard.com blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+tw|tpr/hs|blzddist1-a.akamaihd.net level3.blizzard.com|http://blzddist1-a.akamaihd.net http://level3.blizzard.com https://blzddist1-a.akamaihd.net/?fallback=1|tpr/configs/data
+
+--3ce2c266-9159-4786-b350-37db18917efd
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MDky
+MTE4MzU0M1owLwYJKoZIhvcNAQkEMSIEIHL/FZjlwn5v3MieKhg30TPLxrzGeMwlA75COiFYdHXvMA0GCSqGSIb3DQEBAQUABIIB
+AFNbNgANP+I8QGw9EExqVHGpcvPrOW0HXxVQieeFJzTVsKBnLwLocZTFa63FVeGq5RCDrk+iOYj5pVMNeKnWr0bvTz+8k+ygxqJW
+3py1QFRqEq+l62eEblzeNLc4D6DXPj9/YTp9SHIaPPgy3yaQp3uXYC6kdGBvFAsOC2zcSsX6OSLMLuNWvjSHIRfi6ppxOdkuNUW0
+hG0Tqq6vwIIDccZ4NJ03TkSG7w60bKW8oMnYkMHWx8QeI79pQqtol3kX1dRIcYrE5pEntUSsYgjPV/RUQUKVwJVz3ET8zpbTV8ZT
++PDeOaMfsz9PudUzxW70UQn4uOJFFbFzcSAiWQI5eWE=
+--3ce2c266-9159-4786-b350-37db18917efd--
+Checksum: 601893df61998d7396b2c10bd0fae44746c6cd824f6a7d1ba56994f82ff2bdb2
