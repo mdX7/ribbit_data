@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="29be1288-628b-4d2b-b0d1-722042319598"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: wowdemo/cdns
+
+--29be1288-628b-4d2b-b0d1-722042319598
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 48451
+eu|tpr/wowdev|level3.blizzard.com blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/wowdev|blzddist1-a.akamaihd.net blzddistkr1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://blzddistkr1-a.akamaihd.net https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/wowdev|level3.blizzard.com us.cdn.blizzard.com blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--29be1288-628b-4d2b-b0d1-722042319598
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MDky
+MTE4MDYxNVowLwYJKoZIhvcNAQkEMSIEIMDFC4MuE9kxzjiF60K7o0OtOK5khy/3E+UHHXYcPU/ZMA0GCSqGSIb3DQEBAQUABIIB
+AGsa/xNANrsfJYyWmvmJ+zI59Iput09lpqMGXvNWQX9+/hQJTss9RZtx/CAdnxWAzQCwSyCEtPWI9N6m1vCHMS88NjGodl2do2//
+W7YpDANOor/d4oWQnBih/TzBNLOpfRrJKfMGGWcPWF4qpCRNCNCt66XsKbCPh8v4zCS0k7cIv4mskaOaJxHgzHarWh8GoZMfl6GP
+uB8tiTRvNP8P7NBG3iu5PxzP6lv4zcVU17zz4U2892nOEfDt+zgfWxbH/fkNkJfXYgqRBSd7r3EndSBzvDGoBgkUYlcvx569c/PY
+1+In8uuPoHF4cZgByiiJDFHMjoPIVcUsT5aMElv5b9g=
+--29be1288-628b-4d2b-b0d1-722042319598--
+Checksum: 265b6aac86eea7c8442a0013373aad581845a5e240455692890590bc5e8f9fbb
