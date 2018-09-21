@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="5ca989e2-8783-46be-8a0f-5f57b4ee3a6c"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: wowdev/cdns
+
+--5ca989e2-8783-46be-8a0f-5f57b4ee3a6c
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 48450
+eu|tpr/wowdev|blzddist1-a.akamaihd.net level3.blizzard.com|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/wowdev|blzddistkr1-a.akamaihd.net blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://blzddistkr1-a.akamaihd.net https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/wowdev|level3.blizzard.com us.cdn.blizzard.com blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--5ca989e2-8783-46be-8a0f-5f57b4ee3a6c
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MDky
+MTE4MDYxNVowLwYJKoZIhvcNAQkEMSIEIITZwu+MTfrInREEbYhmQjBZHOorL6Q1pBGUpLgBNHTrMA0GCSqGSIb3DQEBAQUABIIB
+AHYOhBW6idZCGrLpRX5L/YVyuliVrxbaoWKmDuLxgKd0Ih+LgYBR68e1PlZ6exIMQdKn1X5JV0EbDDxxs9O7Unm8wXNG33XAye4o
+00LDKEhD0Frp34/a5UyvOWMLD/PSpOu0DKdNF0hdJakHXUffCewxD+eZ4qlCFNA5RWyAJXZXOrJs5XyIUqGZ9Ff27n+qBoeu5Lyg
+qUZcEM1vUiDSGeXmxWCRWRwCN8ZM4Qkf4clp38et/Eoifsmvv1MYm8qYWgpNbeA498WO6lpLQWin19fzFfVBCIz91X8BTu72AiAU
+FTfzBWT1qg7qdyWGdqjYN60uoDCxRTTpmHe/YwXG/8g=
+--5ca989e2-8783-46be-8a0f-5f57b4ee3a6c--
+Checksum: 14fa8d6128c19c2e29d86cea9e3b11ab194935c5d933d6f6d9cdf93bb034e8cc
