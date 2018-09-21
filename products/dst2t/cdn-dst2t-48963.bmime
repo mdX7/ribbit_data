@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="b4f373f1-d22c-40ee-ba84-89346a4f76f1"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2t/cdns
+
+--b4f373f1-d22c-40ee-ba84-89346a4f76f1
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 48963
+eu|tpr/dst2|level3.blizzard.com blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2|blzddistkr1-a.akamaihd.net blzddist1-a.akamaihd.net blizzard.nefficient.co.kr|http://blizzard.nefficient.co.kr/?maxhosts=4 http://blzddist1-a.akamaihd.net/?maxhosts=4 http://blzddistkr1-a.akamaihd.net/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2|level3.blizzard.com us.cdn.blizzard.com blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--b4f373f1-d22c-40ee-ba84-89346a4f76f1
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MDky
+MTE4MzcxOVowLwYJKoZIhvcNAQkEMSIEIAg/D8J8XVlWXzYYY+UGOEj7dsr/hePv1sCEiXApQ7OqMA0GCSqGSIb3DQEBAQUABIIB
+AFDlkb6Nj1FXGZZ07bBJzi2uZvlI+LPdwSurh9xXWXwsHDzPmpgVjTNjBoAX8rPn6uK3OgXRAhTcKXbcdCjkL7OW0VZEXhJpVtGD
+oPQBBuX8WhA2xM5IJ72khuA/1uMINISVaCahRlCmnPfGlHG9jY9S2qdQKOeZFLVXRx7gmT4uan+q0aMm7kXes4xZGEoJ9RrmQ8Nl
+7fiukw602FzJxUqHcN66p3LZqwsqG53+sIYMuffFiPePQ+Z5PKpumTkDvnXswNA4+h33krWAC2wlfvoCBIqCGuSC2+5c4c+yiAEk
+/x9vpuEMk6y9mDqGHcVa84/08bRT5Sbg5zr1hjZ3DcQ=
+--b4f373f1-d22c-40ee-ba84-89346a4f76f1--
+Checksum: 8c598f6ff01d4a5e6fafcc99b3082b0989d48cfec6d1aa19b12f5d00b7a59cb2
