@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="ac984fbe-60e1-45b5-84b0-b3c1029d50ad"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2/cdns
+
+--ac984fbe-60e1-45b5-84b0-b3c1029d50ad
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 51394
+eu|tpr/dst2|level3.blizzard.com eu.cdn.blizzard.com blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2|blzddist1-a.akamaihd.net blizzard.nefficient.co.kr blzddistkr1-a.akamaihd.net|http://blizzard.nefficient.co.kr/?maxhosts=4 http://blzddist1-a.akamaihd.net/?maxhosts=4 http://blzddistkr1-a.akamaihd.net/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2|us.cdn.blizzard.com blzddist1-a.akamaihd.net level3.blizzard.com|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--ac984fbe-60e1-45b5-84b0-b3c1029d50ad
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MTAw
+MTE4MDcyN1owLwYJKoZIhvcNAQkEMSIEIASjXxsk4VlF11pKeLVpE4ZgK9wSmcYiGm8ADLHmXfhWMA0GCSqGSIb3DQEBAQUABIIB
+ADu+0uJ6EFav0PO7pTUJviYXNSV/gz1w+BwDnEnLUYAKS9eLBuKFcoVSw60TtMmIjYqN/26Ml6KC0B4ekUUOWg5cyV3UjCWdccv8
+DGGQlc0MHxsnAy+/EwadRvND7F3wizqd/qa8Ze5HzRMytU4eUuwBTwNCKDVH/qdhUg7v8GLzlaismywCyapZb0zRCa0TOxITsGJ/
+zLbuYt7jyxFmO0aCfiaC5TFfgX6Slt4EBsZy3ZwsI0AJYR/ttGrtVh5fauv7Z3EJnsGh+qhJFSThv1I+6pFyre8hKvcrIKglFHQK
+NLkr1XP4F2V3e7bff+tl1yMxiwPrprCak0tkz1pO2I8=
+--ac984fbe-60e1-45b5-84b0-b3c1029d50ad--
+Checksum: e4294b73c0ff808722b02584c8dea2b7204729fe4dcf2c8e693faae25c3cf1eb
