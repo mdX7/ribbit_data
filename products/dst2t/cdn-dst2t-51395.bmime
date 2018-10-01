@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="387aaf47-10a6-4436-95ba-e94d512d841c"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2t/cdns
+
+--387aaf47-10a6-4436-95ba-e94d512d841c
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 51395
+eu|tpr/dst2|level3.blizzard.com eu.cdn.blizzard.com blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2|blzddist1-a.akamaihd.net blizzard.nefficient.co.kr blzddistkr1-a.akamaihd.net|http://blizzard.nefficient.co.kr/?maxhosts=4 http://blzddist1-a.akamaihd.net/?maxhosts=4 http://blzddistkr1-a.akamaihd.net/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2|level3.blizzard.com us.cdn.blizzard.com blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--387aaf47-10a6-4436-95ba-e94d512d841c
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MTAw
+MTE4MDcyN1owLwYJKoZIhvcNAQkEMSIEIEGzQFXUaNc76rlTBmGJU4W+Rg7GmZS9zxPW2p9lG+emMA0GCSqGSIb3DQEBAQUABIIB
+AI+VxTWNjk+dsTqUP8ldn2tFLa7xeZbSpiVBhoEDsn8Ew0F9yEOjKzr4Wxr9DbuwRrHAUSXZ1gMlNzXVYv6QEH4t/niBvpGdX0nE
+gQT8dwjONI4cEi8xrz4GlbFAluF0ho78J7UGPY2/sUPw8ALM2ULLn+PIby1LrxrkbQ1mx7ONVAYaoks5GyLKgIhnn9oS9dK2Y7vv
+byuXYGsYZZMUU2CbA2P3UTtlmuACId+nD2jRCoa7RCN+1KyLLVXjwjccP/OM0j/Dd9huCriT+AFSMEscNqcSZjzt3BRILVkKFgRO
+7SqSEcQM4wWJvD/W561LOaDrrjCMCSYWtgDGGZF3t5U=
+--387aaf47-10a6-4436-95ba-e94d512d841c--
+Checksum: 98fac5b88f28fc9221beadc88cf2588620d0cd8923ac85bb1cef900b72c424d0
