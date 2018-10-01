@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="8b9c731f-b028-4034-9bf3-0a9c17e3bbd1"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2igr/cdns
+
+--8b9c731f-b028-4034-9bf3-0a9c17e3bbd1
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 51396
+eu|tpr/dst2|level3.blizzard.com eu.cdn.blizzard.com blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2|blzddist1-a.akamaihd.net blizzard.nefficient.co.kr blzddistkr1-a.akamaihd.net|http://blizzard.nefficient.co.kr/?maxhosts=4 http://blzddist1-a.akamaihd.net/?maxhosts=4 http://blzddistkr1-a.akamaihd.net/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2|level3.blizzard.com us.cdn.blizzard.com blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--8b9c731f-b028-4034-9bf3-0a9c17e3bbd1
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MTAw
+MTE4MDcyN1owLwYJKoZIhvcNAQkEMSIEIAnTf1UUehFR5RIF5bVOHXhu8D8NszeIp8SoQ5TZbIrpMA0GCSqGSIb3DQEBAQUABIIB
+AIjjGKxuAGkOEO4vTpMLi29ZAygKSWhJ5Y658GbJiSOt91Pb+v7GtWLOo/5inAK4muLUDhIfgAdetGYf9YErtTBmMo+oG02bPk3i
+dIhj2FekKnt3+Cd1Izs6W3k2N/NIP3T6Ic3M4rsinNsjmvFdyvouDGF/bI7aXithJciD/cbfSZXUmfovQeIMozh4wPSu8E2jKULd
+96P1tptq7uq+BVTfJjbc4FfX9/nJnP1G4fFdmR8IOE3yKHoFvrOu0BYvbpvwSKOx9x+ukbECfIhrIjwQ1Qmo6re5MOcxrEzd7jOs
+mUyNntKG9v+DzqNENVzeya3eFGe0rywbfQf/fKVRm6Q=
+--8b9c731f-b028-4034-9bf3-0a9c17e3bbd1--
+Checksum: 99131c0209a696d8204280eb86241b93766b36a0508a045d8844c2a9dde620c7
