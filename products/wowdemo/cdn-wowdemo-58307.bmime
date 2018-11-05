@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="4a9c58de-308b-4012-9153-ec99009e182c"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: wowdemo/cdns
+
+--4a9c58de-308b-4012-9153-ec99009e182c
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 58307
+eu|tpr/wowdev|eu.cdn.blizzard.com level3.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/wowdev|level3.blizzard.com blizzard.nefficient.co.kr|http://blizzard.nefficient.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/wowdev|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--4a9c58de-308b-4012-9153-ec99009e182c
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MTEw
+NTE4MTgxM1owLwYJKoZIhvcNAQkEMSIEIAIrwAVZKZMZuqrPmnIXaRV2LcsFba7SAOG1/rRW8OgzMA0GCSqGSIb3DQEBAQUABIIB
+AFBh46g4XAxdQqCD6kpxw6f52IABvDSl5lKgooz3kHImCdM8F7T2+YRG/J2WG/7l5H6ivsWluVlT4yaY+wimo7dz8IXZOnB7lGh7
+V+kajaDKs9tjbrrAVU87dlMIqC0uIB59HSonKaJdhPqFkus3CAk86sXHjZj39n8DrhkkH8sMy8XlYo5ba8L2VpaiPw/BHg/byhz1
+2iJRdQPTCJ0f0bCRHAYq9pvQ8y9f21dEmTYoij2uRhgcxnEwJ1pFyArz2FN6NOnpk0SiI2CW1JkJDLXo9bzcxUy9vMgDppshhFSH
+cbAfDbk0kV9UBMY1Oo+gK963xN1pRxKuqG/MNvuqYYg=
+--4a9c58de-308b-4012-9153-ec99009e182c--
+Checksum: e329282fab85d0c224d617ee2d27459f8bf93429951faf5d7e2285b2f594902d
