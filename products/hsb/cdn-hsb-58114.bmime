@@ -1,0 +1,30 @@
+Content-Type: multipart/alternative; boundary="0873408d-816d-4500-a131-bea4306e8a75"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: hsb/cdns
+
+--0873408d-816d-4500-a131-bea4306e8a75
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 58114
+eu|tpr/hs|eu.cdn.blizzard.com level3.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/hs|level3.blizzard.com blizzard.nefficient.co.kr|http://blizzard.nefficient.co.kr http://level3.blizzard.com/?maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+cn|tpr/hs|client05.pdl.wow.battlenet.com.cn client02.pdl.wow.battlenet.com.cn client01.pdl.wow.battlenet.com.cn client04.pdl.wow.battlenet.com.cn|http://client01.pdl.wow.battlenet.com.cn/?maxhosts=4 http://client02.pdl.wow.battlenet.com.cn/?maxhosts=4 http://client04.pdl.wow.battlenet.com.cn/?maxhosts=4 http://client05.pdl.wow.battlenet.com.cn/?maxhosts=4 https://client01.pdl.wow.battlenet.com.cn/?fallback=1&maxhosts=4 https://client02.pdl.wow.battlenet.com.cn/?fallback=1&maxhosts=4 https://client04.pdl.wow.battlenet.com.cn/?fallback=1&maxhosts=4 https://client05.pdl.wow.battlenet.com.cn/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/hs|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+tw|tpr/hs|level3.blizzard.com|http://level3.blizzard.com/?maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--0873408d-816d-4500-a131-bea4306e8a75
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MTEw
+NTE4MDYzN1owLwYJKoZIhvcNAQkEMSIEIINvIqt7qA3yu7cszVX+3cWOZdAJJxxOkQ3J1Jn7gpWVMA0GCSqGSIb3DQEBAQUABIIB
+AIQlICEJmP0HcGP6dOh59OunxzYU1pCtqnSF0oe9igkVzbz8OLIoCbtm3Z0M4OaByligHt2trfv8/61sGx3gytv888VJ0il0vClQ
+h5ovLnq5E1MPxeGZEKNmya13QHH7NTLkWzdUcwgWV6kKV1xH5x+XuC6QFuMs1kc0p66Wc1SjGT8msZ7ViHT5jaQbUWmh+NpDOs6e
+SMZPkd7ElWxRYm6xamzN3WltH+SNdQex8GlG9HSJgQDdRGhuYptNc4npjmmho0EtAZG5Gfhw3UtqiaL1wFyO5B0O5hWf90ZbA31+
+/12UN67/8sRuN6PCUhkxR20eT0ujav7UlTbmTAseEGI=
+--0873408d-816d-4500-a131-bea4306e8a75--
+Checksum: 0a79a76e7f726d0deda0c31fa41fe51cd7f02fc048874b95f0c566100b88e096
