@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="ba8376e1-7428-4455-a68f-68c0833d0398"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2t/cdns
+
+--ba8376e1-7428-4455-a68f-68c0833d0398
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 59203
+eu|tpr/dst2|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2|level3.blizzard.com blizzard.nefficient.co.kr|http://blizzard.nefficient.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2|us.cdn.blizzard.com level3.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--ba8376e1-7428-4455-a68f-68c0833d0398
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MTEw
+NjE4MDcwM1owLwYJKoZIhvcNAQkEMSIEIH6NhLvwnwsF5fAzpAJzOvav9ThI1NK7jWlUrYFwFU/UMA0GCSqGSIb3DQEBAQUABIIB
+ACQgKQuH2zBPURMowqcX4x4itTOpus8mlZozixFEPFBG6MjkwBeiaXVAkHY+olJH7kGElY+tYXCgUYqu3+qwzhGULDMavDB4c9zF
+QlXoNRPmjYbzyTlQbIjEVqe4ol5kRRoCwh3JLdukiCR6UFZZMVRmapeok6GCwFf7Wk4NrCUX8e/2JyFD2sO6dUJBc+KW2QTDrPAB
+fTbaL+4ptjJiVRLXzJp1ABbYbmYDHKz5VVbtItxjJTiSma9bL4Nko3wWZA0O/RvjN36tvrIJFDR/EmyZ/t2TXhEJVYMgCyH8JYRV
+wPE7TNiF03q7Edf5UmTEzmiHSktBUPsn7I4yvyPRMbw=
+--ba8376e1-7428-4455-a68f-68c0833d0398--
+Checksum: 03acae1291fb77b8be561ab6721140798f41d8be056ac700ccd382cdfee8acf8
