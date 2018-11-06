@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="7e41f279-6815-49db-a64b-20b786270a35"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2a/cdns
+
+--7e41f279-6815-49db-a64b-20b786270a35
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 59842
+eu|tpr/destiny2|eu.cdn.blizzard.com level3.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/destiny2|level3.blizzard.com blizzard.nefficient.co.kr|http://blizzard.nefficient.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/destiny2|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--7e41f279-6815-49db-a64b-20b786270a35
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MTEw
+NjE4MzMyN1owLwYJKoZIhvcNAQkEMSIEIEBWicqycX3h3+y3ip9fJgA8s4RNFDUbBMqvMbivgLUoMA0GCSqGSIb3DQEBAQUABIIB
+AIapJrl6xgO2tQId7esEJKh13iSTQFlZPfTRtMdqH/CV7HAACvLX6gmb51oFhXq7O8h75Pa/xCsv8uS7vnlws3NvA0AOwIWSCkZC
+qthYq41LMs86CMOmAcJ0twLWSzm9DIjC1n4ZTM/QvlFwjNSPK2hS5UfJoRwCySJelN1dJIwMzqyIh/2OU9n4mVMEBkUJjjsl/DQz
+dPsWmB7s11YEP4Z8N7DdA2gsxmNh9seXh2LW/oDvSyWwFAVhGDNfFe11FBABayz+uIyZGg/omyUlEwz4yFr1MhgMTt0uIkltJWA0
+GMuUvu3b9+qsvSF470fi97Yw+RAJ6FWjuIUkfP41mho=
+--7e41f279-6815-49db-a64b-20b786270a35--
+Checksum: 5e9ba55c834f31b4e76bb87a3b32f5c01afdecdccb92c8bb1412a5b7ce029268
