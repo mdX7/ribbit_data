@@ -1,0 +1,30 @@
+Content-Type: multipart/alternative; boundary="5722ebed-e9d9-47c8-98cf-7c25ac0ccb17"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: hsc/cdns
+
+--5722ebed-e9d9-47c8-98cf-7c25ac0ccb17
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 59715
+eu|tpr/hs|eu.cdn.blizzard.com level3.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/hs|level3.blizzard.com blizzard.nefficient.co.kr|http://blizzard.nefficient.co.kr http://level3.blizzard.com/?maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+cn|tpr/hs|client02.pdl.wow.battlenet.com.cn client01.pdl.wow.battlenet.com.cn client04.pdl.wow.battlenet.com.cn client05.pdl.wow.battlenet.com.cn|http://client01.pdl.wow.battlenet.com.cn/?maxhosts=4 http://client02.pdl.wow.battlenet.com.cn/?maxhosts=4 http://client04.pdl.wow.battlenet.com.cn/?maxhosts=4 http://client05.pdl.wow.battlenet.com.cn/?maxhosts=4 https://client01.pdl.wow.battlenet.com.cn/?fallback=1&maxhosts=4 https://client02.pdl.wow.battlenet.com.cn/?fallback=1&maxhosts=4 https://client04.pdl.wow.battlenet.com.cn/?fallback=1&maxhosts=4 https://client05.pdl.wow.battlenet.com.cn/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/hs|us.cdn.blizzard.com level3.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+tw|tpr/hs|us.cdn.blizzard.com level3.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--5722ebed-e9d9-47c8-98cf-7c25ac0ccb17
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MTEw
+NjE4MjM1MFowLwYJKoZIhvcNAQkEMSIEINzEhQFIKS7nPZOoC9TCQ5MMMXQ2GiaDdq1N+dhKytdqMA0GCSqGSIb3DQEBAQUABIIB
+ABCcKuBRMS6NwoN7Fg9VxpMFu7wKpEL7+a9CGFWKG84IEybP57sN5Si9RWl0akenwI0RhR16eXFMW+n20edh+bz1lZqJ++FXqpzH
+SxTtKpJYcBYRTWp3j7KKPvK12QZHsnX5FG8QnTtbAoBOhfyLGXKhJhs+3GqMheD3ZC40zkhMNPv+v1cO4RJx2XsObG3KNmLOxxRs
+lRUka7YF2C+RvGyA5V0iASM+h6vcTr6AkWgQlD6btJQKjGh7kEewyE3Yumljkv+WBZ2tx665YmpDIR+3W0E+rT5EsjvZHJEsqgJw
+dGnJkRkXKwUAqmrjz6XDRQtUGAwnnkIVC1W//TMHIr4=
+--5722ebed-e9d9-47c8-98cf-7c25ac0ccb17--
+Checksum: 745d6b784e8378c5ffe26bc46c51190d2fb350b13da5d60a58fbe96557956d4b
