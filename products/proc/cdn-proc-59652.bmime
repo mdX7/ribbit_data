@@ -1,0 +1,30 @@
+Content-Type: multipart/alternative; boundary="003ac9f5-4d8a-442d-8f2b-05096a20bffc"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: proc/cdns
+
+--003ac9f5-4d8a-442d-8f2b-05096a20bffc
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 59652
+eu|tpr/ovw|eu.cdn.blizzard.com level3.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+tw|tpr/ovw|us.cdn.blizzard.com level3.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+cn|tpr/ovw|client01.pdl.wow.battlenet.com.cn client04.pdl.wow.battlenet.com.cn client05.pdl.wow.battlenet.com.cn client02.pdl.wow.battlenet.com.cn|http://client01.pdl.wow.battlenet.com.cn/?maxhosts=4 http://client02.pdl.wow.battlenet.com.cn/?maxhosts=4 http://client04.pdl.wow.battlenet.com.cn/?maxhosts=4 http://client05.pdl.wow.battlenet.com.cn/?maxhosts=4 https://client01.pdl.wow.battlenet.com.cn/?fallback=1&maxhosts=4 https://client02.pdl.wow.battlenet.com.cn/?fallback=1&maxhosts=4 https://client04.pdl.wow.battlenet.com.cn/?fallback=1&maxhosts=4 https://client05.pdl.wow.battlenet.com.cn/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/ovw|us.cdn.blizzard.com level3.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/ovw|level3.blizzard.com blizzard.nefficient.co.kr|http://blizzard.nefficient.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--003ac9f5-4d8a-442d-8f2b-05096a20bffc
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MTEw
+NjE4MjIxN1owLwYJKoZIhvcNAQkEMSIEIDzyGOhJWlsU9jL6/IAba0aG4g2w2XmS4QrXDUxBuChYMA0GCSqGSIb3DQEBAQUABIIB
+AIUKdWFoyw0E0jSGIn1fKbL7RIhPHCSn0+Sc0MQH3+lhRSJi2vomblqjqg09phpINcJm4wrs/B4V2bm8fVliz4LyR2Vun0/YUCVD
+5+F79xYM3VItQE/beHvLKIe8Iew4YaSreHAm3h7gVfPTNkScG3iKIIYkg0MY9DJCvNKuf1j5FKRd/FaXIk2CFL7dAeCYTZqtBgG1
+nVmiMIBhARbQ+rm5kWmwlNwXR20B8tcS/l9eqsrPV1mMfcWzjJdl7lexeySGepCsmEcUdfR66lSVOYST+YPDvBEJ7YCHkdztnEna
+Q8GvjM0krs5nmNZAkkJX+o8ewP4ijFf2TpGEnDboXFA=
+--003ac9f5-4d8a-442d-8f2b-05096a20bffc--
+Checksum: 6b79d06ea0cb3a2de3730f4a523486082e055103f9aa581503818bd7683f9582
