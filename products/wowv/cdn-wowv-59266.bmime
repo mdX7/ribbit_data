@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="37ab1674-ba4a-4f16-b513-1ffd75cd3028"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: wowv/cdns
+
+--37ab1674-ba4a-4f16-b513-1ffd75cd3028
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 59266
+eu|tpr/wowv|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/wowv|blizzard.nefficient.co.kr level3.blizzard.com|http://blizzard.nefficient.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/wowv|us.cdn.blizzard.com level3.blizzard.com|http://level3.blizzard.com http://us.cdn.blizzard.com/?maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--37ab1674-ba4a-4f16-b513-1ffd75cd3028
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MTEw
+NjE4MTAzMVowLwYJKoZIhvcNAQkEMSIEIP2j3e2+Gqc+SP4mgn+HxGVN6mARW62ta7Gx9N8jdgbCMA0GCSqGSIb3DQEBAQUABIIB
+ACB3SJnl0Lvd7PSuer5GoR8873CWKlVmcL9Acnl3i7OpqZSmS5qmHnK3TQDONDlMgp5vNt3aL7XFGS6mggAI0seHDRSXMX3XHOjm
+ev964RQRTtLlDzOIRjTqDf/tnVaww/zvZrgYrZ2EJETCD1kusGvcMYri7Jv4m4G8rVns67mXZQKhn1PwqR23GKIqWEyrjwQl39JQ
+pCtkOUG79tTA7/RNXboL3EGOFXGL7QmItjUcMKrgx7IrswlIsQA5LscGqF7pqy8btRmuPxJUDy+04dPG7o9oniFBa8ShtfJNXnkp
+nT5zKz5Ks3WlCMYbiWFz9YK+kfc2M41MWOxn8j4gKls=
+--37ab1674-ba4a-4f16-b513-1ffd75cd3028--
+Checksum: a72b56cdd82cce1bf0349205fcd6c5179ed7728c9e1ba654288d6d590313789c
