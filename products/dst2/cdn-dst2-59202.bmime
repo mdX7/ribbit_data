@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="4d601519-393f-41c9-8c42-95591aea14ee"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2/cdns
+
+--4d601519-393f-41c9-8c42-95591aea14ee
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 59202
+eu|tpr/dst2|eu.cdn.blizzard.com level3.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2|level3.blizzard.com blizzard.nefficient.co.kr|http://blizzard.nefficient.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--4d601519-393f-41c9-8c42-95591aea14ee
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MTEw
+NjE4MDcwM1owLwYJKoZIhvcNAQkEMSIEIC6n22z32VM5PxPxJmvSrtw+BTy492LG14hwIUX6pwX+MA0GCSqGSIb3DQEBAQUABIIB
+AFTDS5GQl5OM1VxVtQhZpp2gBWnmBAPqXlWOO6v3RxR7cyPw2sJgvQzSshWQi24ktcLKr6H1+V8C/zuDJ/lERVG+rEGTI86O3OyD
+/6YRH3ORD2u6JEtBauDQH2A1Ct7KizeFQNScYgFORHTYZo3TuBibo/yj/0c8YFM6DFrK0yiG7p7I1q4h5VTuPmmbPOJAPEq8P6oF
+/b2AiKztFmtLrnuqeUa3EiCPyC6KAHjMt+XY+KjjBI0/oMkRR+w2f0KiDG9Ey7KmBA1J6XGKx6sZNzspdkp1R0Iyf4Nle1OUP0AU
+un8U5oaP1fvND7LyAvGlu1wfp0Z0aBA1rpkR176K15Q=
+--4d601519-393f-41c9-8c42-95591aea14ee--
+Checksum: d67628354db28f7c10ff71fcab2df6410efcc60e436a75b430414576a1da341c
