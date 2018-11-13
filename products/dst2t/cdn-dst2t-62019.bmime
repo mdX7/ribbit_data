@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="b1d1068e-d046-4bd4-868e-204d5542ae52"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2t/cdns
+
+--b1d1068e-d046-4bd4-868e-204d5542ae52
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 62019
+eu|tpr/dst2|blzddist1-a.akamaihd.net eu.cdn.blizzard.com|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://eu.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2|blizzard.nefficient.co.kr blzddistkr1-a.akamaihd.net blzddist1-a.akamaihd.net|http://blizzard.nefficient.co.kr/?maxhosts=4 http://blzddist1-a.akamaihd.net/?maxhosts=4 http://blzddistkr1-a.akamaihd.net/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2|blzddist1-a.akamaihd.net us.cdn.blizzard.com|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--b1d1068e-d046-4bd4-868e-204d5542ae52
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MTEx
+MzE4MjMyNVowLwYJKoZIhvcNAQkEMSIEIARV/OARxocd8Et+Fkec+3Oj4wquCeYKXnYo+ZdEpYhnMA0GCSqGSIb3DQEBAQUABIIB
+AFFyhXCmSijQQLz2Bmc6rXT4m76zAy2jqcoBEv8+TW5bY+7pFCmTvLtbcSXQrPEfJrmYT8NfNI99ziuohY/JtqFYQSHgIqvWNN8N
+L0cTtDhADdCs+/ROsphVBdkVfSHASNz7Olrogbh1SjjiB6UTKee6m5dpcXZw7/nHXozg4zqklzKYofWBiYhOR1dnz1F06uwDABZJ
+MP8MowhISkVDzOMPMwoUm4PphBdumP5efd9MvbVHTkr1a7/ipjbFJZ9dccoNCUMLwdlYctLlM2gg5vah9vDCGAOZAGIPSiy5ASj3
+7h+zcpKkBmwBzLJ8bs7S1PSE+f04+eTc6Vnbat3U+MU=
+--b1d1068e-d046-4bd4-868e-204d5542ae52--
+Checksum: 8cf7fe6c8935cdd082370d953d60c99cd045338f4f48a54b5df75599e8ff05c5
