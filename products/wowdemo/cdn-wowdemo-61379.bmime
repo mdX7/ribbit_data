@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="305a2551-1f78-4642-a25c-edde13a67d31"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: wowdemo/cdns
+
+--305a2551-1f78-4642-a25c-edde13a67d31
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 61379
+eu|tpr/wowdev|blzddist1-a.akamaihd.net eu.cdn.blizzard.com|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://eu.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/wowdev|blzddist1-a.akamaihd.net blizzard.nefficient.co.kr blzddistkr1-a.akamaihd.net|http://blizzard.nefficient.co.kr/?maxhosts=4 http://blzddist1-a.akamaihd.net/?maxhosts=4 http://blzddistkr1-a.akamaihd.net/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/wowdev|blzddist1-a.akamaihd.net us.cdn.blizzard.com|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--305a2551-1f78-4642-a25c-edde13a67d31
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MTEx
+MzE4MTQxOVowLwYJKoZIhvcNAQkEMSIEIA/IzULW68oeK52+2IHBzFUmmg0/IPqZ3vdSz/XzpVDJMA0GCSqGSIb3DQEBAQUABIIB
+AIsvyknIJP1qfFEY99RIuFNvgMJlSEm63aGh5F48gYttf6hj1to+TUoY3Q2oNVN4B0xOcpIi2txy2TwrWVqNfCPvMe9Rpcy8dQl0
+9ee86r+369eUUjeoHOU10vEyFBnYNHqD7WJCttKK1T94HPdJgus6xkWOer2nmAeXMlP2TAjxFfymjt2dMOIkm/lkD5CIVNANddBU
+JqlEzwCuk7P+zEbmKqq62hWC8P2PnQu/1zwFl76k068mWrQFh6satsTa6xugZARmylr8nuQVrtRxJfPUqJAUF40xhZUxGp6dduFP
+pkNl2kkSH2t7jdTY3mBI0rSoUFaLatrsSslOzaKK1+0=
+--305a2551-1f78-4642-a25c-edde13a67d31--
+Checksum: 9924010528af809fcce413572f7e5e603c56bbae284e921bb0921db82719f1e5
