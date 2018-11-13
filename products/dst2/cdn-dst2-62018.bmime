@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="790cfe71-bfa7-42b0-b5ee-ca08fbdd0411"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2/cdns
+
+--790cfe71-bfa7-42b0-b5ee-ca08fbdd0411
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 62018
+eu|tpr/dst2|blzddist1-a.akamaihd.net eu.cdn.blizzard.com|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://eu.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2|blzddistkr1-a.akamaihd.net blzddist1-a.akamaihd.net blizzard.nefficient.co.kr|http://blizzard.nefficient.co.kr/?maxhosts=4 http://blzddist1-a.akamaihd.net/?maxhosts=4 http://blzddistkr1-a.akamaihd.net/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2|blzddist1-a.akamaihd.net us.cdn.blizzard.com|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--790cfe71-bfa7-42b0-b5ee-ca08fbdd0411
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MTEx
+MzE4MjMyNVowLwYJKoZIhvcNAQkEMSIEILAWvKqI+Il6Zi6kBLq20nMKkZIsvY/anjiYDiu+RgFEMA0GCSqGSIb3DQEBAQUABIIB
+AA0+NmVdQz9y/DopUBYirNQp5MA2xZZRjeAnaBpE3JmMDbAP7dNiGgJpg4ZpVmKjCZYjG6DKtnKIrr1IavfywqJ+qPAYZ1O8Oj0f
+MHATPH8XIew+Zs6jUM8GN0h4xw2uYZtZ13XEPgyz/PMrp++1YprbYJZ8f6V1UHndrqVunZf0HeKzYq1hYac1oDZlIsEzdQFptnS1
+VEJbOEF9/j/mS7/7+Mr9oIz9B2CJnCwQUksOFg5AKRfEyNYFzglzy/vZ5oJMRjye3r6BaT3jGyjrCg2ky0n0JfJCmaAnK+cIFQqD
+ZKGqYmfs/bc2Bbeq4Q6vEJLg1PIJUnQV41/JktmikMo=
+--790cfe71-bfa7-42b0-b5ee-ca08fbdd0411--
+Checksum: 9a7e0320ffc54768af8b41b948a4a9ed5467207ce7995e00971d26eea69168e2
