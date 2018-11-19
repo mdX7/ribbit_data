@@ -1,0 +1,29 @@
+Content-Type: multipart/alternative; boundary="c827c846-435e-4010-a6b9-895c84a591f7"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: prov/cdns
+
+--c827c846-435e-4010-a6b9-895c84a591f7
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 64130
+eu|tpr/prov|level3.blizzard.com eu.cdn.blizzard.com blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/prov|blizzard.nefficient.co.kr blzddist1-a.akamaihd.net blzddistkr1-a.akamaihd.net level3.blizzard.com|http://blizzard.nefficient.co.kr/?maxhosts=4 http://blzddist1-a.akamaihd.net/?maxhosts=4 http://blzddistkr1-a.akamaihd.net/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/prov|level3.blizzard.com us.cdn.blizzard.com blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+tw|tpr/prov|level3.blizzard.com us.cdn.blizzard.com blzddist1-a.akamaihd.net|http://blzddist1-a.akamaihd.net/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--c827c846-435e-4010-a6b9-895c84a591f7
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MTEx
+OTE5MTk0MVowLwYJKoZIhvcNAQkEMSIEIMCu4ZLI06eCCTvuCm5uLLT1zhVXmv0xkfF4FaW6l2HyMA0GCSqGSIb3DQEBAQUABIIB
+AI0OkrdM7ackdKL7sjkPEt0VpLfSIxdhwDPIz4VJlYCismCiPJFgV/KFTPmGBZ0k1t+BIctsbK0sKuEsitVy+Fb+eUauuYi5l0Gf
+x2I0bgioPvzWa87PRIwxl2bN00yfsesM2EqcTdO5GC+cIb4Xq/PH3twM9eRwBHugWqGvw86oVavgng2vOreOXZ5q+WjiIQr+mNJN
+lRwKDDfodQzuRsH+72hEX0LvADtyE8odsciAdCEW+hFOcuaEm/DPHNpDgtW6wFkFTGWNqLqx2AuvH6qYb0YaCJksxiE3N9xIXIew
+bJ+FKh0J1/FKHhj6Z+nf59xe5qPYSNn5S0aEeHlep3U=
+--c827c846-435e-4010-a6b9-895c84a591f7--
+Checksum: e3ae5ec2cc307611382bfa0b71fd199ce443ac381f1c2159a4882c3a518056bd
