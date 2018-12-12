@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="171ff8af-2429-433f-8336-be4ccf56e2e3"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2igr/cdns
+
+--171ff8af-2429-433f-8336-be4ccf56e2e3
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 70020
+eu|tpr/dst2|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2|blizzard.nefficient.co.kr level3.blizzard.com|http://blizzard.nefficient.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--171ff8af-2429-433f-8336-be4ccf56e2e3
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MTIx
+MjE5NTgwNlowLwYJKoZIhvcNAQkEMSIEIJG3N0DxsRwVD1uNsof6T67kC5xYSHl1P+/UrqX/czAcMA0GCSqGSIb3DQEBAQUABIIB
+ABSmnGjA8aS0GDOY9THMz2JNJpijbgpVISsDFa4BSBfWUZCU7R9vat5Uq8KfctE40HoWx7I6PQhMvnzvP5l6RZN1JBXYjuSCpVbF
+gLehHDLM2BNywAzHtL+4Nap11jc3+oryQnETAD/yr8oIwQMRJ+Hy4w91SjzFvGkyRjpTT3SNLttIF1vhnXqJW4OkrGhPB2o4zjES
+HB+FvxHB+i2FjokQbTJ+jraQqxFJanr1zmXOdnrrSS/SpD2mTz1P9KJA1723ou2RX9VoFbebqVvPHEhxJZZlXN2lKZA8asI+yohM
+1PEcj56gcFDc8LKLhE3wqVSiIOKtagFQjIUZ2/YB5Dg=
+--171ff8af-2429-433f-8336-be4ccf56e2e3--
+Checksum: 88428019409bc1a65118c9f734f896c4d8a340c4ae2fa64607e47d91d2349202
