@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="ff6b79fe-9f65-420d-92ca-6c3bd9f3ad66"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: wowdev/cdns
+
+--ff6b79fe-9f65-420d-92ca-6c3bd9f3ad66
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 71298
+eu|tpr/wowdev|eu.cdn.blizzard.com level3.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/wowdev|level3.blizzard.com blizzard.nefficient.co.kr|http://blizzard.nefficient.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/wowdev|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--ff6b79fe-9f65-420d-92ca-6c3bd9f3ad66
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MTIx
+MjIzMTgzMFowLwYJKoZIhvcNAQkEMSIEIFn4ZmOAXOy1DEc4LdA2KuZTuxFLamPA67wJY673ob2IMA0GCSqGSIb3DQEBAQUABIIB
+ACUTlQWSmGmdmrPX1B8iKt3nPqe7y8cg70EaKkv8T7aO6ESG0gJ/p4Gdfg4HplqsoEmmxhf4IrJAUAQr2tNp2iKwlEXZbR0EzrJU
+aWPszi/ZQCh1Q5ZS+UFPuKnTS2DT0lqFxpKYsahJIoMgphyIpzlaap2OHavOmqLkxzr+yJ0NMkSAq4+tGU5xKQDj6Ne52BTuY89s
+DrWNw9Y2cDftTC5kHkEfmaZ0poq4F9A0EEs2Mq3a+AGHu6irGxDH9GvJ+mitbGUgR3C1TICNyuPCEM4VvbLRb2AmjJxqw1Htcibl
+zUP/091IYRaikwA1L/Dl4c5dGX+KTinlg1ataFfR5xw=
+--ff6b79fe-9f65-420d-92ca-6c3bd9f3ad66--
+Checksum: a277cf310b189dfe89e0a0ae0438f7752629e7d6224b3b81576e3deafe4c8d9e
