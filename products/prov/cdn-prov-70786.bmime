@@ -1,0 +1,29 @@
+Content-Type: multipart/alternative; boundary="4da8a4ce-1004-4632-84ff-eed3d46ab0fb"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: prov/cdns
+
+--4da8a4ce-1004-4632-84ff-eed3d46ab0fb
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 70786
+eu|tpr/prov|eu.cdn.blizzard.com level3.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/prov|blizzard.nefficient.co.kr level3.blizzard.com|http://blizzard.nefficient.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/prov|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+tw|tpr/prov|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--4da8a4ce-1004-4632-84ff-eed3d46ab0fb
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MTIx
+MjIyMzMzNlowLwYJKoZIhvcNAQkEMSIEINIQmZNT1sh7EOL/2lej+3v6pRx6Q8c/KSLED9Bt6Sp+MA0GCSqGSIb3DQEBAQUABIIB
+AJAb6ypKxOMUwD2ax56goxMTDtkoFRxs+IE+tjPV+N99r0E+Rmu4lAXWLApWGxIUyiU7JL1gheOTYEzC3fBw9jFuKrS5S2lpFYco
+xKWYnhj1Y2JorfX9mJ6NOIzzgtT9LrPi1wmXoOrewD5t/morfeJoM5T2PkoHbg9PwiyCk7rA2EQu+9Z7riABG42SLrIqQBlBhQjo
+bwQfBDwIFgE1RH+p+qJzKPxdfNdbDS9jqKtvrl1LywUMKdypC2QoDCHJo0/0gnMJ2tqjOzLlwvhVVI0kkUT3K//hEppKvz0800rx
+vi7E80xGH9HdPjJU9zlrFzK147pWiQ4RVtRMBCNXpmI=
+--4da8a4ce-1004-4632-84ff-eed3d46ab0fb--
+Checksum: 92d03fde4f2a0702a215e97e5a232da266db5a564423396c53d54ff9fef3eca5
