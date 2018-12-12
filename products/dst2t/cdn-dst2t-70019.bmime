@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="22ababac-c5ce-4f64-b4b8-190dd47fcace"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2t/cdns
+
+--22ababac-c5ce-4f64-b4b8-190dd47fcace
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 70019
+eu|tpr/dst2|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2|level3.blizzard.com blizzard.nefficient.co.kr|http://blizzard.nefficient.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--22ababac-c5ce-4f64-b4b8-190dd47fcace
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MTIx
+MjE5NTgwNlowLwYJKoZIhvcNAQkEMSIEIKREMn8HXV58qmNJBBFVPIZm5aTBS+d7sbgO3ZR1g717MA0GCSqGSIb3DQEBAQUABIIB
+AApJ+Ruqmrl5otv+0JK+0rwZEHIWcjEUI7CBb7Hu/yR7T7WR1vQdy6Cy/9yII4rwkR/LGYo61WF8+PZly2APjYNbkX6z6d2MVjYd
+x9RsiLsn8y6gvxFg2Uu5ln1yZrFaVNJAVE0HrsQcpl3SefDmhsQE26+qRzaM7qJSnJnPBaSxinpp3OITyQFITPHz6q7ZldKTH3Uy
+Dm8kWd7PZLtUrviP4FSjY2RdaYmYAqmUHiIGHse+i0iOnvT2Wfp3L9q2OyCOiOBvuFAAe/sUNzEDE+lP+Uk/L7VtIG4OOgo8PIL5
+vEWW9hxbtw47U49g2V32yseSmZDr4SM24IbpmA09pRE=
+--22ababac-c5ce-4f64-b4b8-190dd47fcace--
+Checksum: 9f2b249d3be05f34494e581bdf6842af40f359857ef6cc1f92dce6ba2ec45f3f
