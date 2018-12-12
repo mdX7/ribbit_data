@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="d5a458ad-3088-4342-9b75-3892baa5ef30"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2/cdns
+
+--d5a458ad-3088-4342-9b75-3892baa5ef30
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 70018
+eu|tpr/dst2|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2|blizzard.nefficient.co.kr level3.blizzard.com|http://blizzard.nefficient.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2|us.cdn.blizzard.com level3.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--d5a458ad-3088-4342-9b75-3892baa5ef30
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE4MTIx
+MjE5NTgwNlowLwYJKoZIhvcNAQkEMSIEIMFwHRwqEVC3+nXvhYCpkk+oCUe7PxnwknFjXARYXxOjMA0GCSqGSIb3DQEBAQUABIIB
+AK8JBTIm7A+mbmMFxmtYQoDP+Cz5QUQSXHiAT2w2G2uF5tsIoC/7Ek5XRhE9qhKtKmhswYx5/yx4WCjfIAElrxawRv56DZT/sP34
++tsVEzi2CCy0dd1YdvFpCmlo/BV8yH8DHnGPgmzOmpKisfvSgGvEwzw6/3Zz1Dq+o2vPgciuDLzHBSy7id3/iaGjAphR8/VsFNd5
+OxxzIAvz8RLpEnto7EwcDGh9q9RQx/9xJpzzTE4YcHC+J7LaMsZSp7GI1F29vA7pRnFB8XXdEl4hMk6vt1T8iaLycDnonnGaT3OB
+g2gCCI7gdkoLWHggzMQwH7sSUpPrNXlIEV4oopk0UxY=
+--d5a458ad-3088-4342-9b75-3892baa5ef30--
+Checksum: 4e7e19f2b398f0b8e924b29bbd64b25b32b5c7d887ebdb2487ca4f3a65259403
