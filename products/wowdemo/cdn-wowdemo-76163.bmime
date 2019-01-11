@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="1fc1936c-c015-4cfb-ba89-7890228d5f23"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: wowdemo/cdns
+
+--1fc1936c-c015-4cfb-ba89-7890228d5f23
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 76163
+eu|tpr/wowdev|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/wowdev|blizzard.nefficient.co.kr level3.blizzard.com kr.cdn.blizzard.com|http://blizzard.nefficient.co.kr/?maxhosts=4 http://kr.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/wowdev|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--1fc1936c-c015-4cfb-ba89-7890228d5f23
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDEx
+MTE5Mzk1OVowLwYJKoZIhvcNAQkEMSIEIFauxVZaABdjw1XmKrpk+Eb9ElgIaTu38dUtyA/caDkzMA0GCSqGSIb3DQEBAQUABIIB
+AKsmzybm+oK6WEYwOKuNcrv5tb3FtYzTk5DkYI/qFZqCQ8WGmgGed9+UCjFye5zpKB8V/BfWcAKppJbKwnSPrc4sd8jcU02NZpNP
+SkqOyZDMHexvmU3T4lEUA6l9FvY0jjvzdxJIdyC2miYpPm4xA0QCQY7vcxoZozK8oexnMQej5L6p59+GzGmcx4gxAnADPxxUuHgA
+2NsTO/eTJ1Z3vpPHvAlhr7nBfYo6ANQADjrf4nwc2t0GK0yybs9zBB1GSRbdAXcTi1tZmLxIL0j//ukC4VVoZz/BS4tgaa9yg4Kg
+f1v/dj/cCWCCSoZnOs/0V1oZyXnJXXQgEIDc01J62AY=
+--1fc1936c-c015-4cfb-ba89-7890228d5f23--
+Checksum: 4c568116d7d7e16c59d04a6636796082c7281f2238926702700270104545c4ac
