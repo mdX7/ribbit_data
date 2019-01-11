@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="218bb5fd-fd9d-4380-a8be-481a594d24e5"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2/cdns
+
+--218bb5fd-fd9d-4380-a8be-481a594d24e5
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 76802
+eu|tpr/dst2|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2|blizzard.nefficient.co.kr level3.blizzard.com kr.cdn.blizzard.com|http://blizzard.nefficient.co.kr/?maxhosts=4 http://kr.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2|us.cdn.blizzard.com level3.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--218bb5fd-fd9d-4380-a8be-481a594d24e5
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDEx
+MTE5NTUwMlowLwYJKoZIhvcNAQkEMSIEIGm3Vaew1gE3fM0FkJuCx1lQ8cDs7cVQQBIwGqaSCrhCMA0GCSqGSIb3DQEBAQUABIIB
+AIAxDzTnOMQOQl51AOg/5pbm27TSBz/WlvKkIIZAylvhVzbj++Fx8iIfEhGJYZRCkB/o8iY9IwlybmbEcjX9897xt+iw5ZYhHs3B
+tkUn2AtasJTU128e1536MdQ5pc0gr1Ge2rOZKU1/NDd7a8J/14vVZuSGWgtjpXHvk/ekJuT3XY2YbYc7HZV1whpx0hitEnWFgO4G
+baslc0kPYA/T7CBY8vnqgOCGpdXvdmSsuA8JV1UWJeyHUYJtLG1LkhfZPCLkTnNUR6iVsvb5T010bWNYu2vlV1J5kkkG23M/sVFw
+UNdOddu5P3Igr+f8iyuyOVurNQ4RqKm2u8L72GBcNSI=
+--218bb5fd-fd9d-4380-a8be-481a594d24e5--
+Checksum: b7c055532c29b0628175d2e5a5667cddb7314c40de7186e7747bf43149a99ecf
