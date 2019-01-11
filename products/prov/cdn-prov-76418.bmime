@@ -1,0 +1,29 @@
+Content-Type: multipart/alternative; boundary="8ce590c7-4f49-4e37-9898-eafe73c6f0c4"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: prov/cdns
+
+--8ce590c7-4f49-4e37-9898-eafe73c6f0c4
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 76418
+eu|tpr/prov|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/prov|level3.blizzard.com kr.cdn.blizzard.com blizzard.nefficient.co.kr|http://blizzard.nefficient.co.kr/?maxhosts=4 http://kr.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/prov|us.cdn.blizzard.com level3.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+tw|tpr/prov|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--8ce590c7-4f49-4e37-9898-eafe73c6f0c4
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDEx
+MTE5NDYxMVowLwYJKoZIhvcNAQkEMSIEIAy6eDPVMD5LrZZKuEfzJX5DzFhW6TSzbfS1iQCsha93MA0GCSqGSIb3DQEBAQUABIIB
+AJ5JKJN58fvYSf41aedciwzy2jiYxJNNSw2UjbdwJUXnfDn2o/Kvz3kNsNsfHQmHqKXcXzHqshE3XcGUJlLUyzau7X93nWRQLBNV
+83UvP8X63X52CRFrThUOIEJGHshDR3EdScyjQ++Ycd7rLDAjHies/27ourWSvGmtIK4CCC3ldRrzsbwhYz9xyf/TtWQgiMiQtp3b
+2JLxfMVduqsxkEcQPLrmK5Ri16p9UKPfWfsaNpBdCLgzo3JSKl7fogZA2vKHbtAbAf1fLUApbEZ8CMEmsznKg0hRv9IrgsH2J85Z
++oHu+TKLG6+gFfrPsUuIpDrlsXmlTyML07+oj2Fz1LU=
+--8ce590c7-4f49-4e37-9898-eafe73c6f0c4--
+Checksum: 1d8c239aac3a800f6b598bd22300285a0ba49b45c2961025d3e31eead8cfd2aa
