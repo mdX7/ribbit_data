@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="381209e1-2898-4bcb-964c-06bc89d107e3"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2igr/cdns
+
+--381209e1-2898-4bcb-964c-06bc89d107e3
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 76804
+eu|tpr/dst2|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2|blizzard.nefficient.co.kr level3.blizzard.com kr.cdn.blizzard.com|http://blizzard.nefficient.co.kr/?maxhosts=4 http://kr.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--381209e1-2898-4bcb-964c-06bc89d107e3
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDEx
+MTE5NTUwMlowLwYJKoZIhvcNAQkEMSIEIGgQKVbDNihYWW2wjM7mFYeYjuJWkLrR22qzfyt9Zr7LMA0GCSqGSIb3DQEBAQUABIIB
+ACSpD9orhmie4Fk5vQ4izXKGecitqLAD9kNZz2iSP/CoC6ipXoqgesfDbmWDhpxuCsC5wDrcnHfARrrP28Y/d2Zik5Mozs3ksK2A
+hOslOlktw/9cL/Hnfb0AGWoNy+pQaI9uL6W/pAPLvAHuYU/gFCBRZ2wOIr7yMZG6x7LWaU0BNfcONerYT2fkqPQ8tB68Psl75XWX
+C1jO7kF7UtaQ5DAfYE4pOUw5QRO2u9cLvwJdmvBpXIMQ5UsyYPRoTa/svv/r3gXwx3Nb3BYNpJelhStwjrPNUBCK2xfT/ViNV2CT
+IwjH3sWID+IriJ+TXT07MogJGY0/RUvkh/az+ltOFZs=
+--381209e1-2898-4bcb-964c-06bc89d107e3--
+Checksum: 6ee875d4d19685b597b5443e4b7b748acb3506bd564459b60670942ceaa7c9de
