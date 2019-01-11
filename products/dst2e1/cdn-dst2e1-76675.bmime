@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="28cd2553-946a-48fb-b29b-c6e565480752"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2e1/cdns
+
+--28cd2553-946a-48fb-b29b-c6e565480752
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 76675
+eu|tpr/dst2dev|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2dev|blizzard.nefficient.co.kr level3.blizzard.com kr.cdn.blizzard.com|http://blizzard.nefficient.co.kr/?maxhosts=4 http://kr.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2dev|us.cdn.blizzard.com level3.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--28cd2553-946a-48fb-b29b-c6e565480752
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDEx
+MTE5NTMxMVowLwYJKoZIhvcNAQkEMSIEIPX7w4WeJybndnlacK8dYRzPatKJoh2MHDvGEsUpVLgyMA0GCSqGSIb3DQEBAQUABIIB
+AD23HwTnxWAfXw4XCJ4cepKQs2jJy4PKuDFKERrRgZL7bO/jUO3TFryBDRs8Xigu7wI6fThRKvi8GsNcOUlCfmHBWC8gpC0i3jlk
+otrJjsFNcqPSmccwB2qbDbwaSRL6yNw6i+Jp9WJlSi/dTohpAFHtEXeV36wFYmRdsH3PQ15KnmAMABQ568yFqnlFfILEsaOrnZjN
+4kXXCYRDoyqxPJ/3q9TN1dvKHJV6TgLkjaxvLSqdPTKE5aLDY1G8X3kLLvSt0ORppNsl0fBmx9TdWodZ5ILTrVFDvk3xAyzTv5Qt
+oBS0gex2ydFcyzq3HX1oI2GP//emk21ozvg+/mQLYro=
+--28cd2553-946a-48fb-b29b-c6e565480752--
+Checksum: 4b154826c2355afebd3cdb02f90866df9f75fd1ffadb5c8e36004e0e3c36e485
