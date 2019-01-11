@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="f11de44b-0562-4251-8c39-5c100fcae94e"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2t/cdns
+
+--f11de44b-0562-4251-8c39-5c100fcae94e
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 76803
+eu|tpr/dst2|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2|level3.blizzard.com kr.cdn.blizzard.com blizzard.nefficient.co.kr|http://blizzard.nefficient.co.kr/?maxhosts=4 http://kr.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--f11de44b-0562-4251-8c39-5c100fcae94e
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDEx
+MTE5NTUwMlowLwYJKoZIhvcNAQkEMSIEIFSkUst8p6SIFRwrUxcduSi0hPNEc9aFEHk1c1dpF9XNMA0GCSqGSIb3DQEBAQUABIIB
+AB3TXKIlwnoxDJgc2At148UNfnoeVsqgjrHbI+7T+zTtBQU0IoBPjhPb4kDwdJLzyZO3ZnofwAc74sfEJOP6zggXmNjSC7731HIO
+lZ4An2DwWUha/ykiti0ir43NXUSZ4Anxn0HoMiCZWIsEr5ML4GPMfxD3GpZEyjZiK2fXsKmiaNt36XEjLH9gwYSCjtY78t90NM2M
+K+wJszHU3ORIv84ydH2UDkNTv588As3ineJ1o8HIFDXEMGWGMzAmjzJUD4UGswok7vr8TFsESA114wdVb5uVsOWdA3lJaVwYcxx1
+ZYuHFoigIN7uYBet/OtvraBDfiSYPmv2knzPzaHJUkQ=
+--f11de44b-0562-4251-8c39-5c100fcae94e--
+Checksum: 47b1665a37e824a8c1d8050a1d8e18a73d599bcf2e0faccb08af26cbc655eb2c
