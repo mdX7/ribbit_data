@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="edf57944-e2a9-458b-933b-4812bd7d7c88"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2t/cdns
+
+--edf57944-e2a9-458b-933b-4812bd7d7c88
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 84803
+eu|tpr/dst2|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2|blizzard.nefficient.co.kr level3.blizzard.com|http://blizzard.nefficient.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--edf57944-e2a9-458b-933b-4812bd7d7c88
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIy
+MjIzNDMxOFowLwYJKoZIhvcNAQkEMSIEIHIdyGGHUtbxi7C5jYZ8rmu4eD6dVH5A6Sa8rZ6OFq0EMA0GCSqGSIb3DQEBAQUABIIB
+AC+gbe95ks5H8w+N+g/FJYggMe9UaO7utW++ajXP/TwHauCJRsFEUv60liGU1sop81S9nu1wVYrwekj7tKy8jrZ2uncYQPpJvpS9
+EkLeBLVwucFJsVzrACPmLyqsaHKPowlQvr0YMz7AbRFPSwTqr8YlV4Gup0eZvAJ3uxWTyzIRAmSSvBgrnzFueu6A0kWhJJX/7iLa
+NpaC5yeJMBFWpzZ3irONNd7l+1GIUuS/mLZxlo0KReUcPE/ruCjex2VWO68CiW4PjI31TsQVCaEAemA2UiPmUBF8Dno8s6PHKqUu
+GQ1zfuMwqq9mCmrsfqCiJo7GHtSVvo/tOqib9PT4RRc=
+--edf57944-e2a9-458b-933b-4812bd7d7c88--
+Checksum: db6fcb73bcffc5493d5dc8750c44ec9413a235f95faaaa8dcfb777526a7df6c0
