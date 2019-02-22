@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="6c0ca10a-7049-4b4d-b6ef-4c5cc7e72a4f"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2e1/cdns
+
+--6c0ca10a-7049-4b4d-b6ef-4c5cc7e72a4f
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 84867
+eu|tpr/dst2dev|eu.cdn.blizzard.com level3.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2dev|level3.blizzard.com blizzard.nefficient.co.kr|http://blizzard.nefficient.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2dev|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--6c0ca10a-7049-4b4d-b6ef-4c5cc7e72a4f
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIy
+MjIzNDM0M1owLwYJKoZIhvcNAQkEMSIEIJOFoJ8hMqHBoQSgN4Xu7+gbsnk2++hoQzWZN+WAKtyHMA0GCSqGSIb3DQEBAQUABIIB
+AJBoi8W6oxLiiW2EbGjP3ScgJwCNmicqJogNjLlACylSWQLoHjSnT7+VxBMnesBspV8FKy269f9Tyk2mv8EP73DSVejyP7RkFKWx
+roATtsnboF8DQSnqFguY46WjPL7WRqb5DEcCUJEo0CXmg5HKWnZuDSZh2+4CSdXl/johX7YhYPMMLFwFB2r6kq3rTog0tLpB5TrC
+5BZsmiCTWpnpfjpXm+kBZbbTt7AnW1bw62HwBHvHS/MfKryJP/pF4GqwpKcymq0pW9izGY4IrU8oXpwMIF0tzeZqAkPYWcxUk2S3
+FwszVJHfXiLHxNVW0U62l71KcVPgY65gF+NvTE6Jos8=
+--6c0ca10a-7049-4b4d-b6ef-4c5cc7e72a4f--
+Checksum: 29a04f452f7c3b42a43801177b7370c55a441d8d521d4a609bdc313d73027538
