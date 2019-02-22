@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="64cbe76b-8f5f-457c-ab3c-38a7a4b442da"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2igr/cdns
+
+--64cbe76b-8f5f-457c-ab3c-38a7a4b442da
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 84804
+eu|tpr/dst2|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2|blizzard.nefficient.co.kr level3.blizzard.com|http://blizzard.nefficient.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--64cbe76b-8f5f-457c-ab3c-38a7a4b442da
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIy
+MjIzNDMxOFowLwYJKoZIhvcNAQkEMSIEIH5DLQPHKlh/7OftEv7ZmdK4sFLLvQVEuV1RNzp24rfQMA0GCSqGSIb3DQEBAQUABIIB
+AH8Ot8znkvcbsJPXkC2Aen6VO6UuvRlVgsFgILYMRmMbbZzOyOMhwNkhL6t+OmFpJQSrXhLaimwtbnTikhe8bDFN15i4JvoIud4A
+JxC9nSgs1VQdvVPXvrqjVWASY7CHhC+nen14LiNUPTb7Fj5wsZuNWci633dJXTNto2LSBvvo99hNcxYkJFD1XY0I/Luirzy5cgLn
+FMJl25719wUx6JAoPJbU0XvjKcgZwWrS+KJQmIpXJCSptYIakpZq+z5/CuPj0FxOQCsYw8jj5CoIeQqQSf9mMhB/bKWGuhX7DYZ2
+n7ta0Mjc9MZyxR/YRxSvs+FKXz7a4f+gSyOa9UMEufA=
+--64cbe76b-8f5f-457c-ab3c-38a7a4b442da--
+Checksum: a9392ae85cf2067d124da6e641f833d4f34a451ddc561dcb1a18d02a0a336bae
