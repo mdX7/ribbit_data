@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="d3cead91-24ae-4ddc-a5f1-64735eb497d7"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2/cdns
+
+--d3cead91-24ae-4ddc-a5f1-64735eb497d7
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 84802
+eu|tpr/dst2|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2|blizzard.nefficient.co.kr level3.blizzard.com|http://blizzard.nefficient.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2|us.cdn.blizzard.com level3.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--d3cead91-24ae-4ddc-a5f1-64735eb497d7
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIy
+MjIzNDMxOFowLwYJKoZIhvcNAQkEMSIEIKt55OYRqNZB7hR7aduJYZio+ZbN00KI+eb5eyhujE/HMA0GCSqGSIb3DQEBAQUABIIB
+AAOPUz3DHkeOQYtFhUkZUJj9IuDJFl40k32XkOcL/Qp4/rggVi+Ig2ogQDZXWDk8vnjHxSwTnSzDTgvwxvd7rWkSt6PcP8ppJg3G
+I+RJO0XbwEy17ujrKD1j/0Jf4lm4KsTur4Kuh9lM3et6IKdtwlkY1KCzSMxwKXZG63QqwQG5+e+L3E5VqOZGbQ/FYnhOjtOoaLeS
+DkT+8lo8x0+9hyOSjTkp8DjKK6MylWo2/pSqWZ8ROzfMtybr/JlR/it3X3rPS8qwqlWnlVwLkOizThuuHjB9ozl63tRhU7iZlzFE
+U64jfEZHfiPoW8bsbKXtHOHkZy5gltcCa52gaGo9Hj4=
+--d3cead91-24ae-4ddc-a5f1-64735eb497d7--
+Checksum: 36743cc4af776e86bef491c4449c24bada6a92343fd35b9e112b2207355b6ebe
