@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="6a372702-dca5-4886-b65e-ad6b1b1d15b7"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: dst2dev/cdns
+
+--6a372702-dca5-4886-b65e-ad6b1b1d15b7
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 84866
+eu|tpr/dst2dev|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/dst2dev|blizzard.nefficient.co.kr level3.blizzard.com|http://blizzard.nefficient.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/dst2dev|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--6a372702-dca5-4886-b65e-ad6b1b1d15b7
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIy
+MjIzNDM0M1owLwYJKoZIhvcNAQkEMSIEIIl+KIXJD9z2MlKy0mZllCwBKWkeZWJvoKsTcstpZzuUMA0GCSqGSIb3DQEBAQUABIIB
+AEU3gjwfq4LTf8dShBq+YWm+NQh7pP9WT1iRQKIbyZJ9T1cKpCi+ff0uM+Xrj4f/OPP9ajuWc26mSs3VB8CrZ3uNAnuIC6IXuVvZ
+4RP8xBc68cfPsXiJgizWabWL28unqHfdwyUHoRfdPU2vy3J8re91zyDJ33cbV5lDeMr7NImxIrY/i/UWXC6COsL1cMtff7cmK3Sn
+P9jrV1ppb9dkKIXm+j2SJqfyfrAs8T/2toVIJnmx2YjIjBaI7d9mLHWWohWPYhV5iOGgkGscLBRGNeh4mlAs0g8xoCbVmxq5ZBp5
+ZhrhVIl5Xfml+sdyCGnJoQm8jXuTZ+Vik/g6VFBBxyk=
+--6a372702-dca5-4886-b65e-ad6b1b1d15b7--
+Checksum: ac881105b6e615d2659582b6ea1af0588afb346361469e5071fdf13b9089fc7e
