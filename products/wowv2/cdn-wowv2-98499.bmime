@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="6b0597b4-bb66-4383-b234-9c13a8f10e98"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: wowv2/cdns
+
+--6b0597b4-bb66-4383-b234-9c13a8f10e98
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 98499
+eu|tpr/wowv|eu.cdn.blizzard.com level3.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/wowv|blizzard.nefficient.co.kr level3.blizzard.com kr.cdn.blizzard.com|http://blizzard.nefficient.co.kr/?maxhosts=4 http://kr.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/wowv|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--6b0597b4-bb66-4383-b234-9c13a8f10e98
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDUw
+OTIxMDQxNFowLwYJKoZIhvcNAQkEMSIEIGPhXhCCgNBaesaJHQE8ZUKZXFJsml/Jxq0v2x1I5tk2MA0GCSqGSIb3DQEBAQUABIIB
+AHDKUNa7IfW8dC8YNHvOY1Fon9tYyuV8e/tDnHdjE9VHHD0IZwZ6xFmNcs+Rma2zCTq1znC5+aYeWRmjgb5neZcCUDiFTFG17wh+
+JmSvJu0hoQNth1FDdUUJfTVmmRm17c1A4iqJvlF55ZTcmHnwAMt7k5odf8MQmYhA7UpnxmOKnomTi5mIkNF5GTN9me7S6F/Ildpc
+uQUvmCZXRY9HiLVkhBAPb7Fz14HoxqLt+k+AmsZaXSUJYUXeIw+/Znj+vK5drfCso94D36de/+GGKKw+xGeZ/s9G4wwYVNKIolCT
+VNn+bYvH7/sTsCN0MQgvWSij9TQn2Ud25BmbTQc4yOc=
+--6b0597b4-bb66-4383-b234-9c13a8f10e98--
+Checksum: b67ba61c8ed6b3b56e95b5205d7958138418e365388f166b41223dbdbec076ea
