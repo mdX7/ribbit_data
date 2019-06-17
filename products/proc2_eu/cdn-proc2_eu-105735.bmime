@@ -1,0 +1,30 @@
+Content-Type: multipart/alternative; boundary="0c14dcb7-38ab-43b4-b17c-0cf588160cc2"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: proc2_eu/cdns
+
+--0c14dcb7-38ab-43b4-b17c-0cf588160cc2
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 105735
+eu|tpr/ovw|eu.cdn.blizzard.com level3.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/ovw|level3.blizzard.com|http://level3.blizzard.com https://level3.ssl.blizzard.com/?fallback=1|tpr/configs/data
+cn|tpr/ovw|client04.pdl.wow.battlenet.com.cn client05.pdl.wow.battlenet.com.cn client02.pdl.wow.battlenet.com.cn|http://client02.pdl.wow.battlenet.com.cn/?maxhosts=4 http://client04.pdl.wow.battlenet.com.cn/?maxhosts=4 http://client05.pdl.wow.battlenet.com.cn/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://client02.pdl.wow.battlenet.com.cn/?fallback=1&maxhosts=4 https://client04.pdl.wow.battlenet.com.cn/?fallback=1&maxhosts=4 https://client05.pdl.wow.battlenet.com.cn/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/ovw|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+tw|tpr/ovw|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--0c14dcb7-38ab-43b4-b17c-0cf588160cc2
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDYx
+NzIxMTAxMVowLwYJKoZIhvcNAQkEMSIEICJ7fyEuJ34m6/y/Mdc0qFVfXVx8tLCVwE/TICgVTI1DMA0GCSqGSIb3DQEBAQUABIIB
+AJubG3gromA9CPUcqbx5IpM3sVX45saDmE0H1rBm5TGnnj7Kq3F8EnUFCQKIIyk0MmJ4LES6zfmmqBDofUNZrjZeqOl1dltP58mf
+rxWZNILrRsrM4bowcDgNNqRdgcP854t+zrDyudZAFx+hT8P5YW89W1Bx+zeiWZ8c4QNwNnO/eJMZBPA9C53w4eFYUqDaQxSJOAj4
+WMhvyJK2x60loS8Qj2p7l5B2Wh+PYpjZ81hbeypdBBW+F57nnblfOpKzfNFw3P2astv3cNQqlZyeDZgqe3hWHHP0oXKv0Kvj5E7n
+Po+TV+XjDeEer9GqSZH2ycHMbgFrspgdSmP/Cgwe2N4=
+--0c14dcb7-38ab-43b4-b17c-0cf588160cc2--
+Checksum: 56b44bf540b599258262dde29bfb9ef50186003c203c5493ce1b7e4a0bfe150a
