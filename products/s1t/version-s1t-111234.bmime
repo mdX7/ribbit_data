@@ -1,0 +1,31 @@
+Content-Type: multipart/alternative; boundary="d390d9f8-20e2-49c8-b2ea-e8cfb9c973f3"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: s1t/versions
+
+--d390d9f8-20e2-49c8-b2ea-e8cfb9c973f3
+Content-Disposition: version
+
+Region!STRING:0|BuildConfig!HEX:16|CDNConfig!HEX:16|KeyRing!HEX:16|BuildId!DEC:4|VersionsName!String:0|ProductConfig!HEX:16
+## seqn = 111234
+us|1ea2b5ea2cf5d3eb4226fdb3342dfa83|cb96edb6c47fa509b476a8c253382931||5653|1.22.3.5653-ptr|1e9d5225a915fe9383216562442cbf54
+eu|1ea2b5ea2cf5d3eb4226fdb3342dfa83|cb96edb6c47fa509b476a8c253382931||5653|1.22.3.5653-ptr|1e9d5225a915fe9383216562442cbf54
+cn|34e768c23fc2ce75b8ca85b81a9437cb|cb96edb6c47fa509b476a8c253382931||2411|1.19.0.2411|7a872b35bb47207339f576f5fd72da36
+kr|1ea2b5ea2cf5d3eb4226fdb3342dfa83|cb96edb6c47fa509b476a8c253382931||5653|1.22.3.5653-ptr|1e9d5225a915fe9383216562442cbf54
+tw|1ea2b5ea2cf5d3eb4226fdb3342dfa83|cb96edb6c47fa509b476a8c253382931||5653|1.22.3.5653-ptr|1e9d5225a915fe9383216562442cbf54
+sg|1ea2b5ea2cf5d3eb4226fdb3342dfa83|cb96edb6c47fa509b476a8c253382931||5653|1.22.3.5653-ptr|1e9d5225a915fe9383216562442cbf54
+
+--d390d9f8-20e2-49c8-b2ea-e8cfb9c973f3
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDcx
+MDE4NDMzOVowLwYJKoZIhvcNAQkEMSIEIBBubJnhnZvw5xzCM4jwo1byeWwWcrqEI5BT7su28lZOMA0GCSqGSIb3DQEBAQUABIIB
+AICq3n+NBsqQXWdLY56GVWXRMztVykrPQ2Ubq6wItDy1t2odp2xMMpebDieAoccT7bakBUpkkDTNhRFs/3nTbfGud7tRcLkUk2dN
+/dTQQeregkobi56z74kwfLsAkp21NOy0dB6Q1AcdEbOMl93yHAT7ISlDZtYYSSSj47uJyhhEawOfBzORK04KkYwqgAnvNLdU3sxl
+9xzA9MVuDSK4aywc6tNgP+e2ZkPhn3RF8l3X48swvxYww/Ua6jRBNjA2QIHdcbMqPgR+m3gxqrPl5Blrtq8RjkEcpB7WGngk/CEt
+1nYeFi+owUVgbfVwZa88b/MUHyJdcFwLI6O9xXiClAE=
+--d390d9f8-20e2-49c8-b2ea-e8cfb9c973f3--
+Checksum: ec0cf65dce718f80c0edb97ba59b1c15c080a4f9f6887ba1f0553a92e66356be
