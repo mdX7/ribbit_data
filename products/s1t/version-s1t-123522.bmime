@@ -1,0 +1,31 @@
+Content-Type: multipart/alternative; boundary="50f2038a-6bab-4d90-8380-2e53a98df88b"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: s1t/versions
+
+--50f2038a-6bab-4d90-8380-2e53a98df88b
+Content-Disposition: version
+
+Region!STRING:0|BuildConfig!HEX:16|CDNConfig!HEX:16|KeyRing!HEX:16|BuildId!DEC:4|VersionsName!String:0|ProductConfig!HEX:16
+## seqn = 123522
+us|1ea2b5ea2cf5d3eb4226fdb3342dfa83|ee28aeea0aaa113746f3e32bd344042a||5653|1.22.3.5653-ptr|1e9d5225a915fe9383216562442cbf54
+eu|1ea2b5ea2cf5d3eb4226fdb3342dfa83|ee28aeea0aaa113746f3e32bd344042a||5653|1.22.3.5653-ptr|1e9d5225a915fe9383216562442cbf54
+cn|34e768c23fc2ce75b8ca85b81a9437cb|ee28aeea0aaa113746f3e32bd344042a||2411|1.19.0.2411|7a872b35bb47207339f576f5fd72da36
+kr|1ea2b5ea2cf5d3eb4226fdb3342dfa83|ee28aeea0aaa113746f3e32bd344042a||5653|1.22.3.5653-ptr|1e9d5225a915fe9383216562442cbf54
+tw|1ea2b5ea2cf5d3eb4226fdb3342dfa83|ee28aeea0aaa113746f3e32bd344042a||5653|1.22.3.5653-ptr|1e9d5225a915fe9383216562442cbf54
+sg|1ea2b5ea2cf5d3eb4226fdb3342dfa83|ee28aeea0aaa113746f3e32bd344042a||5653|1.22.3.5653-ptr|1e9d5225a915fe9383216562442cbf54
+
+--50f2038a-6bab-4d90-8380-2e53a98df88b
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDky
+NDE3MzU1MlowLwYJKoZIhvcNAQkEMSIEIFB8f+ELRnTtSK8rwVG3elYQw1Qoca3lH8FwDEMUFNxEMA0GCSqGSIb3DQEBAQUABIIB
+AKgql+rJFpX98zsy+DEa2SGadK+49//DZ/+bHK+uApl6OmK+JZYEjHteRgQM7yIfFr/5i1HEeSI/fXkN5QNp8QLvHHC1E1FdgfRc
+EEx5Cl0/1/cK4uaND7NStpJlfXfFdJfRhqIXJ+32IyqwnfhBpKoKEWzO8fYyN7FuE6Zvy960Xy4PfbLNhB8LToGJV4tcFQfX/3dy
+E1C+ynwFvGahDfr7oa4/lFkj6CsiCy/bwWIrUlR7w4zaIpiXrsT5EUmxAknW5cGDz83Pq/MXJvWYz2D8owPlzYZYwolvJx/aowAk
+me4CSN3iO3Y3YuW6ZcEWZeM5KbP3mz2pSzuBBqCt+Z4=
+--50f2038a-6bab-4d90-8380-2e53a98df88b--
+Checksum: 3f6782367d2be03f537838c1fb438dd26a5e12a926e186ab9acafd8046a84870
