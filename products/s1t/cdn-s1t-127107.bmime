@@ -1,0 +1,30 @@
+Content-Type: multipart/alternative; boundary="fe3d49e9-749e-48d6-af84-c76ef448f9fd"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: s1t/cdns
+
+--fe3d49e9-749e-48d6-af84-c76ef448f9fd
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 127107
+eu|tpr/sc1live|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/sc1live|level3.blizzard.com blizzard.gcdn.cloudn.co.kr blizzard.nefficient.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=4 http://blizzard.nefficient.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+cn|tpr/sc1live|client04.pdl.wow.battlenet.com.cn client05.pdl.wow.battlenet.com.cn client02.pdl.wow.battlenet.com.cn|http://client02.pdl.wow.battlenet.com.cn/?maxhosts=4 http://client04.pdl.wow.battlenet.com.cn/?maxhosts=4 http://client05.pdl.wow.battlenet.com.cn/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://client02.pdl.wow.battlenet.com.cn/?fallback=1&maxhosts=4 https://client04.pdl.wow.battlenet.com.cn/?fallback=1&maxhosts=4 https://client05.pdl.wow.battlenet.com.cn/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/sc1live|us.cdn.blizzard.com level3.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+tw|tpr/sc1live|us.cdn.blizzard.com level3.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--fe3d49e9-749e-48d6-af84-c76ef448f9fd
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MTAw
+NzE2MTM1MFowLwYJKoZIhvcNAQkEMSIEIJHzsnMriZs3nXf1lBxjkG0fifeIW1uasEUYFFr0EJgYMA0GCSqGSIb3DQEBAQUABIIB
+AIMxkQdn91DJ8mMvSB5uAp68yLlsvcab5jYpaweUSauhT2Z1ThAKkcyYEEnvY0biwdKXodfQmwqfxFILpnmoQYR8CmQFrUUJmqhE
+HaL3Vs0AxkH0++KAecXpg4ucvbhyMXZkZsf2Z+r6loNBHSL/KdUbDF7dcwnTIucKvyzuqPZzassDRITCqWP18eC0H/1LQ9htAWG8
+zn0P++JdlknL0dAx4xoCyl/krCDtXyMKclJTViVDoaQnKJ9H4kpQGpt9M4+2WLDX+xjK76s9ssxpUlGJqagj9q19anXFrhVE4PDh
+89Ga37fmYji5KD6GM6dsPQaZ2ILLaSaHZ4jFh5kPKbI=
+--fe3d49e9-749e-48d6-af84-c76ef448f9fd--
+Checksum: 8ae72b3e24b28bb6e6fd4cd46c56e1abfd23f2cf369bf25e649b08eb957c33e3
