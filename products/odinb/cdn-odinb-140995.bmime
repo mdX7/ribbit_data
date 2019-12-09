@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="1fd63f37-8f14-467d-b6d6-d534147f84e8"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: odinb/cdns
+
+--1fd63f37-8f14-467d-b6d6-d534147f84e8
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 140995
+eu|tpr/odin|level3.blizzard.com|http://level3.blizzard.com/?maxhosts=10 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/odin|blizzard.gcdn.cloudn.co.kr level3.blizzard.com|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/odin|level3.blizzard.com|http://level3.blizzard.com/?maxhosts=10 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--1fd63f37-8f14-467d-b6d6-d534147f84e8
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MTIw
+OTIyNDMzN1owLwYJKoZIhvcNAQkEMSIEII4fy5h02G5YmJ2q05h6JHGvVHnRM+uU41kdvAQ7wpEnMA0GCSqGSIb3DQEBAQUABIIB
+AHfiSOxzfg9NI7d2GECR0xqXduoNcBTgVyDE3q7wg8aVdVKLqWBuQ42bb2tTSd71mEvQDu1/apo5M2TpdgamLYJLT/v17ro3UBRk
+5nf3suxNsZve6mcDmIFVUAwr7aTU8XTg6uThE/QjQNRN8U63QliczvaZsV7BtILsT3CtT+Dyzurqdn0RaamLRJyOMoqWXkOluN5r
+nl2InNxIt7LE9sMSXtC7CQS/hEZRzT9RLknvr+/MCz6VChXHjxEWheCsFq8pb+4TYMdhEFLaL5TzDkvW1r82KpeNoikmKhV8MwMh
+KInl4bS4AdkijJnPhsgZok1h1eH5dQxBigKHCjd7U3M=
+--1fd63f37-8f14-467d-b6d6-d534147f84e8--
+Checksum: 098007f42f67d75f978a4f4d2799bd926db27440cefb03b5316fcf44ec2919f4
