@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="aebf504f-188f-4fc4-896e-841a96c59078"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: odin/cdns
+
+--aebf504f-188f-4fc4-896e-841a96c59078
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 140482
+eu|tpr/odin|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/odin|level3.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/odin|us.cdn.blizzard.com level3.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--aebf504f-188f-4fc4-896e-841a96c59078
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MTIw
+OTIxNDY0M1owLwYJKoZIhvcNAQkEMSIEIMiqndvC62aeO+ruTinFXxeub2hORoCy3S+bGRnR9Q8rMA0GCSqGSIb3DQEBAQUABIIB
+AEs5j4h7rbpu1C0CGMuER05YR47QzHee3LanoGoghNUQ3BpKRTm8WrvZsk8fiLleuaW5e51gtNiCe5lxlfqvRsGPN7bbX+i3jppJ
+LPq/vuFpMuugLCodr4Xmd7XKVLaCuJ26UElGu0hmpJzxdxq7bpiSgLviBaeKSLNq15d/nV+1rvnVJlF/RygKVs0UcMSeou2n44yK
+Fm63hlcTCLFrqxNiECIvAq1au1tEHy3f7GPkjzBlbqZ0ckiNBV/9L+39d+y9unPad0R6uZsFNO/eKzV2sRzAQadu/kqi8Us6QEHQ
+he1GMHo1Xr55ASP0UpMMtWhM4QDhep6qytgSVF8iWns=
+--aebf504f-188f-4fc4-896e-841a96c59078--
+Checksum: 5b24dcde20a9c82850b3b2b98839865039743fc064bde673857804a0276a6885
