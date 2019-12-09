@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="8f2f364b-70fe-4460-9783-6741a20a034b"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: odin/cdns
+
+--8f2f364b-70fe-4460-9783-6741a20a034b
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 140994
+eu|tpr/odin|level3.blizzard.com|http://level3.blizzard.com/?maxhosts=10 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/odin|blizzard.gcdn.cloudn.co.kr level3.blizzard.com|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/odin|level3.blizzard.com|http://level3.blizzard.com/?maxhosts=10 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--8f2f364b-70fe-4460-9783-6741a20a034b
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MTIw
+OTIyNDMzN1owLwYJKoZIhvcNAQkEMSIEIArx5oWiDTtowlgZNDvx7hkx/buBJF0eyYnABzUREEyTMA0GCSqGSIb3DQEBAQUABIIB
+ADUTEJ97CqpSQOVRnmQ+aJ+Y7ANwItT2oIJIlrBZxbpiEOjOF3r/p0wd5wsZu4qQR/sER6PfQ4Wn9oC7MgAUzYW8VBc/JG4i3xe2
+IggawV62qJcYm1IJgKEeigF2vZ8HFj32lyR5iuFw6Xg+QhRJAz41oE96BmASV5VTOpKMwXtJz+Y85Lh02dYfm5zH4qXE0Y4yLutc
+AN5ke6sogZpnms1u5sg0rBXpkENTtll8RuH3i2Ku9Q2J7aY3eI8QP20P4QZyDdUGZcl0aM0m1anmwIllMmoSOCmb4ni0FuYOgE0l
+HsgXI3pY7jrzcSF8x/eLjdaUc+pFC8w2VHqr1rsUwKI=
+--8f2f364b-70fe-4460-9783-6741a20a034b--
+Checksum: 7ab9260e00aaf995bc393ecd5d25c71d7bf3b1f9c02ebd94a61e5fdc7d35f888
