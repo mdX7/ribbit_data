@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="5e5ee835-ac95-4f79-8b94-b84fc94381f5"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: viperdev/cdns
+
+--5e5ee835-ac95-4f79-8b94-b84fc94381f5
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 141570
+eu|tpr/viperd|level3.blizzard.com|http://level3.blizzard.com/?maxhosts=10 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/viperd|blizzard.gcdn.cloudn.co.kr level3.blizzard.com|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/viperd|level3.blizzard.com|http://level3.blizzard.com/?maxhosts=10 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--5e5ee835-ac95-4f79-8b94-b84fc94381f5
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MTIw
+OTIzMjE0OVowLwYJKoZIhvcNAQkEMSIEIJ+Tt0i63wwOWKsNNPXSK8RO0KhnrF96/jymw4KUSGsdMA0GCSqGSIb3DQEBAQUABIIB
+AJEGuJPlaMjVD5jvK9IoGMXoDoSudUSacKWiQm1b6+sBgPHlR+Do2Wrg310qFnDkKN6fAUKvsY6+EaJewvob3XWN76R4eNm/RSkZ
+xK0kc5uuDzujwC/dyIZ3/Xg3NG2viW5auDZbv9vevLTUoF4YYtBkvZs07RpiKHl8dZsycCoiaybq8fcAXbKAI0ik6EcZC1L737Ay
+1D6fnYJIl0aKO0YzWQonnd6lYlIS62htc2Fi+YIQ+ZrMcmVv0ChkcMr/W6ahr1B6Gcu0q2XfEYbwkfZMHIOm1QhZW4RYigVw3+ql
+3bYoXUlZmqWsJflq2odeD3+kxX0/aCEB4EXxtgP0uxc=
+--5e5ee835-ac95-4f79-8b94-b84fc94381f5--
+Checksum: 9772f6a11370d12bdbb832494e919f210711ff1085fe33ac51c0de880ec26200
