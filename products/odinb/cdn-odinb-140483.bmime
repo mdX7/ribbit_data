@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="3c9fe7b7-5821-46d5-9d5b-2ceb2bba9731"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: odinb/cdns
+
+--3c9fe7b7-5821-46d5-9d5b-2ceb2bba9731
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 140483
+eu|tpr/odin|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/odin|level3.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/odin|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--3c9fe7b7-5821-46d5-9d5b-2ceb2bba9731
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MTIw
+OTIxNDY0M1owLwYJKoZIhvcNAQkEMSIEIMsqoUGon/llYwFHCK1WPqQeAXpaj3FAEtn5720Nx7XfMA0GCSqGSIb3DQEBAQUABIIB
+AC90p8P2HkujkYc5zdeU2pdaXCbsnATKlsBavHcHq6naaLGR77iMIVaCtFKwJ/AvKTHWbpjEvFPzHvdHZq5yFFKc50FpjzCJJK+J
+EuLk4qaKvJYVkoidwM7Jf+7kDsSc3yTsiAb09bhCzt7c+d8UhfLxfUFL8UuFGPhvTENZlpzgGh7qNbW6LRH8GkvGZKr1huENJqDE
+s9jawxGiw2Ca+1uyFasVjiOra3VlFAS3nIlBhGpuBbe0CBIEWGFuOVVwS6HzgriO7B4xTnCnoP+1tXccJ7bK7TZ+iHo/hQsPxdfG
+Y1WsG5eRKrV23fhPplRMdUk+LuXaqF2EmlBqe9INQ8U=
+--3c9fe7b7-5821-46d5-9d5b-2ceb2bba9731--
+Checksum: 7ed25d557182e7f590838f75ac048326ab908399fe6050a20727713426060a31
