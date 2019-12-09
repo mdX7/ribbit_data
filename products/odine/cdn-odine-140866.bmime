@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="6625cb57-23c1-47e7-b377-5263c6982e66"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: odine/cdns
+
+--6625cb57-23c1-47e7-b377-5263c6982e66
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 140866
+eu|tpr/odine|level3.blizzard.com|http://level3.blizzard.com/?maxhosts=10 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=10|tpr/configs/data
+kr|tpr/odine|blizzard.gcdn.cloudn.co.kr level3.blizzard.com|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/odine|level3.blizzard.com|http://level3.blizzard.com/?maxhosts=10 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=10|tpr/configs/data
+
+--6625cb57-23c1-47e7-b377-5263c6982e66
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MTIw
+OTIyMzcxMlowLwYJKoZIhvcNAQkEMSIEIPKeZEs2QORYRmnGTZxlPY/fFOTl1m4pPdtumngJbr5VMA0GCSqGSIb3DQEBAQUABIIB
+AB9t9BUS7tL0DzPhzObyI48FIno6yEBDfNYqIKzsEQNQ43WC8ZOh6Rk0dtcO9E1qmfu3onVlqdGPDZWx7Szu3dcU4s5pz8l24Ghw
+qHzGpXU8K/3luE5rBgNFdZafnZx6Yon/UVlukyo/g/sRrpiwvj6nGB0JFx9LdMsvfAhWqPf/L2s3eY0v1xhEFtRJjRmvI5poaI3l
+L8vGBG+pXJc22yisaleYHTAStVKW26ko0ch2oV+JlbOws5wBAUT8MgRCyqTmDCDIWmqzcIi6jz0qYXII+G+WaY/IW1KYZLpkvJtO
+n2HIZuhHlYHdk+gH9gxUDWuC0Ca7jzuS/tVdNU+lMls=
+--6625cb57-23c1-47e7-b377-5263c6982e66--
+Checksum: a2c5f19ec970b8270164e8aeadb3279dabf37d37d958035b64546264d64b8b1b
