@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="a63830e8-d8dc-4e1a-a296-80e60317d56b"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: odinb/cdns
+
+--a63830e8-d8dc-4e1a-a296-80e60317d56b
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 146051
+eu|tpr/odin|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/odin|blizzard.gcdn.cloudn.co.kr level3.blizzard.com|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/odin|us.cdn.blizzard.com level3.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--a63830e8-d8dc-4e1a-a296-80e60317d56b
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIwMDEx
+NTAwNTIyMlowLwYJKoZIhvcNAQkEMSIEICKUjVrpaeSkdBVICL0cQCQl8WrBPenUNZPAoa8AdJ+dMA0GCSqGSIb3DQEBAQUABIIB
+AGABRo8PDWclOc37DwQwebXY+mJJ3C033foS5fZsD/kwa9SXIZkgu1p7VcvfvZdvj4s/wYMbOvIwYqHKkrx2FnsLYLThhawxkZEu
+vBmiCyQGQIbl4ZanqAoOY6hLfarWzvdLX7zxgBTtPxpA4Wu/PW9qEabnnGqPUPNoWpKbzFtwj7YV0kEwzIseSc6Ld2HlzbRHVeXx
+I9D+jOihE4OTyHb61VwfS8qGqw55xwzGqIfr0HNXDiOkRxaIML6p4cnb4yTynj23FU8XeS/iwnwOKF6PU90rKa0EU8ToW0qS7b5e
+tF3UyUqEpgrLHnCs08ZelDFrzY7lq0s9VnkyBFeMG4Y=
+--a63830e8-d8dc-4e1a-a296-80e60317d56b--
+Checksum: d972e2015a290cad9f7506c524602a813bc1b351ece5467747fc6863f61e2dac
