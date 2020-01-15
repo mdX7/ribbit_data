@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="71fedb86-b38d-46d4-a6c1-8b54775f862f"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: odin/cdns
+
+--71fedb86-b38d-46d4-a6c1-8b54775f862f
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 146050
+eu|tpr/odin|eu.cdn.blizzard.com level3.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/odin|level3.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/odin|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--71fedb86-b38d-46d4-a6c1-8b54775f862f
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFLGVGOVGkUf+
+1muoyOWfxmphdgSNMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIwMDEx
+NTAwNTIyMlowLwYJKoZIhvcNAQkEMSIEICMQ5PTSzkmBOrXfu1x854c8838VpsSUbjBFWqjVJz8aMA0GCSqGSIb3DQEBAQUABIIB
+AAl4nku/2CGs0C7AMcuy8WsEkjDtbL32I3kWGpV21CQXz6XR2PLK6UlRCubpI1z7HEzJmU00WCQFvkOhI5GvNgtd+6DyTKddBS5v
+98plqDH8UIDv3DNnUm+oYCtXBv7/M9x9HDJKP3u7nEiwh9x0RrnCQHS5Q9E2bNZJfvTaSzUBZEgz+/7lbKjfaET2T6shdHijvrdE
+i86Ierx5hEzbPWLhbPdxC43vTCXnAT2UnRRdLX/zQsBC+vxVZwLRGMUtEI2lsBbuiiyI/VAGBjOnBv8YKplPLKZXJ6z6MdpaeEXZ
++2SY6tt9Wavim2CtBR2SyiNjXvnRYXjYQ+Jx3A1niYk=
+--71fedb86-b38d-46d4-a6c1-8b54775f862f--
+Checksum: 88231e83a93fcb49598d0a1ff3169ff0cb3a09a8351e9d33d059c7c3d15b6a59
