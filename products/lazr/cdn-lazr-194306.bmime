@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="d188a57f-448e-45d0-8e5c-642829b9d6fe"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: lazr/cdns
+
+--d188a57f-448e-45d0-8e5c-642829b9d6fe
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 194306
+eu|tpr/lazr|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/lazr|kr.cdn.blizzard.com level3.blizzard.com|http://kr.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/lazr|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--d188a57f-448e-45d0-8e5c-642829b9d6fe
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIwMDQy
+ODE3MzQwOFowLwYJKoZIhvcNAQkEMSIEILJbd5gQe+sh4z5yyOCrRxn5WpwxDNdEPQd0z3hz61NrMA0GCSqGSIb3DQEBAQUABIIB
+AE3eUyL1Np71LrAOa9/N3BUTa62hFoI2NbY+8H/5o2wn0NTzcyR5rOJLHXEAlmjWpn0uuadla4/kfIme2arCd/SHR49ih9GObCn5
+wO+34vJE9qtR8ohlnMPdK78CS/1aJPlahIMQNDmX5FuvsvyW1nhMckHnTwyrge42T9Mg3bESg00LxeyalG283rY+SvB9bexv5Ozl
+qgn4Ik2ml+Mga4hFfYxkdNbwYtzgUSeMimd1wvFurTwtByHzfIpn+EDS0PpP6Q7aLYU/MTPz4wREbeeJprCUJHzbfD/iKTSZQDK9
+JC2JRij246z6/hb4gRz/PpmaLfFD8s2QPnNJfECUG7A=
+--d188a57f-448e-45d0-8e5c-642829b9d6fe--
+Checksum: 297f2560787cd0bc944e6bc3733c81025aa4fb7b603a334b7ee258d904d27818
