@@ -1,0 +1,30 @@
+Content-Type: multipart/alternative; boundary="2bd6f129-9b3f-47bc-99ad-bdb90c81e11a"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: bts/cdns
+
+--2bd6f129-9b3f-47bc-99ad-bdb90c81e11a
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 331138
+eu|tpr/bnt004|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com http://level3.blizzard.com|tpr/configs/data
+kr|tpr/bnt004|level3.blizzard.com kr.cdn.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr http://kr.cdn.blizzard.com http://level3.blizzard.com|tpr/configs/data
+cn|tpr/bnt004|client02.pdl.wow.battlenet.com.cn client04.pdl.wow.battlenet.com.cn client05.pdl.wow.battlenet.com.cn|http://client02.pdl.wow.battlenet.com.cn http://client04.pdl.wow.battlenet.com.cn http://client05.pdl.wow.battlenet.com.cn|tpr/configs/data
+us|tpr/bnt004|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com http://us.cdn.blizzard.com|tpr/configs/data
+tw|tpr/bnt004|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com http://us.cdn.blizzard.com|tpr/configs/data
+
+--2bd6f129-9b3f-47bc-99ad-bdb90c81e11a
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIwMTAw
+OTE4NTY0MlowLwYJKoZIhvcNAQkEMSIEICP83oRz23fYcVT2pt/lCRGa9nuh71Li4syJTEn2/If+MA0GCSqGSIb3DQEBAQUABIIB
+AK5PHwtrYiE8plyxgyyq91sJZu16g0cGp4wb4358lM+gqaVcBybiBh82pzyST8OfiQqj9N2Z/1EIGQFcyCif7H9XvuKFchqpAT/2
+FlNfoXBJP5zetsFnvfHS4LoHP2IurKUzQyRH6SzYlf51k2w70D71oa5hFw+12gShwihIKPWfxJc0hxew8XEoHlBczt9WObnvJoF7
+Ix9QuFRiv3ErE0diOF3Y0fpyTvxvKuGSSPFshOzAh/0O4rNk/32addP6Fy8f69iVUbWeIjVtbHVB1rnwEEwwVpjDcSlCvWig6Q+1
+7zuTqwlN6wDB7E9tkBy/nJD7dRJEtALZCn239kuf6Jc=
+--2bd6f129-9b3f-47bc-99ad-bdb90c81e11a--
+Checksum: f94b8da776b0432a161551aee00b47de5d5861f5de6469028622a0fb0a555019
