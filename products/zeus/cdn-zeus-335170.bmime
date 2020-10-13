@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="3462a704-204e-4376-82c8-cfeb485eb3a4"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: zeus/cdns
+
+--3462a704-204e-4376-82c8-cfeb485eb3a4
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 335170
+eu|tpr/zeus|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=5 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+kr|tpr/zeus|level3.blizzard.com kr.cdn.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=5 http://kr.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=5 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=5 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+us|tpr/zeus|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5 https://us.cdn.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+
+--3462a704-204e-4376-82c8-cfeb485eb3a4
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIwMTAx
+MzE0NTI1MlowLwYJKoZIhvcNAQkEMSIEIIFm/XR3NXl2qyA+lPZASoiWAtfILbnoKExrRlKHR2iYMA0GCSqGSIb3DQEBAQUABIIB
+AGAcc3nyRvFHwsrNAunDRu+YTD0pBkEXuaKVnxsrap1R2V0AQZJGmAjzYunfls4zcijlL4sx6l4ePKeZt117AMdC4VsdrHARk7EL
+3i4+pjwIMV5qETYExgZkHl0JSdF0tCWtbFiAzey95+P+6qbRBJcfQjkWZfqQ0pn8bH6NvPkvkzPYJKOntB7SHCHq6qofjB/WtOIm
+L++lgRiqy7nYT5AvgE6YmLoVagETGpwID2ojxXdiXxkcTDXnXvWWm1SahgXtYxOALWREoWvejjFcI3FqkK5ZOIto8GjNhXi+vhVn
+qtu+j1/0N9qbFwD90a5NM1bWo65to25BL9cwlSV2ORw=
+--3462a704-204e-4376-82c8-cfeb485eb3a4--
+Checksum: 60c79d18aa4cec97209cf9f7cbcfaee89f24bceb9ecd6ab21b1aaeeddfdd1330
