@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="f058118b-3a4b-46a1-aaa6-70c79cbe4a67"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: hsdev/cdns
+
+--f058118b-3a4b-46a1-aaa6-70c79cbe4a67
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 336258
+eu|tpr/hsdev|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=5 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+kr|tpr/hsdev|level3.blizzard.com kr.cdn.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=5 http://kr.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=5 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=5 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+us|tpr/hsdev|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5 https://us.cdn.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+
+--f058118b-3a4b-46a1-aaa6-70c79cbe4a67
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIwMTAx
+MzIzNTIyMVowLwYJKoZIhvcNAQkEMSIEIBmCmzWtD+CgtSrf0ceG9DL1eSolrnVQpdruMDWI3VgFMA0GCSqGSIb3DQEBAQUABIIB
+AMnrAFKFisKOXqf2OYL/yRTO7409GHdMXYIHM1/YpBO6kAvGUUT0D0apwffI8G22gcsEqgl2kTRy+2teLM1Y72YncIRdGVTeRZHM
+HUtUaJuiG6T0EhPANARkBK7vfkDsz7FjKyVHWd0wm7RLsMnfgXph8VSpqPPECaUQtvQdFtyO4Bf03wjdURqK9Go+5X0zO1F3lKy+
+2RbQJMmmBSBHrtrNgnneldX9yZg1cdV8P/Vrmb84Rsq4Dx30lCbIGOrd9ysnEcBluljkEHYwuCYDSNOXDc5NaYXVOgOwqvkZ3HNm
+MwWkHtO93TEqajp9KFYnGPqH3dqKdHyXRB4rsy4+eGY=
+--f058118b-3a4b-46a1-aaa6-70c79cbe4a67--
+Checksum: 18f202909782ebadafc9f4fa0a1eed0257cdbee1c34b7e18fe9d0ca0f53eeaf0
