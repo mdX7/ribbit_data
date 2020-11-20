@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="1819269f-a9aa-4706-bbae-21417a553fed"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: odin/cdns
+
+--1819269f-a9aa-4706-bbae-21417a553fed
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 384386
+eu|tpr/odin|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/odin|level3.blizzard.com kr.cdn.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=4 http://kr.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/odin|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--1819269f-a9aa-4706-bbae-21417a553fed
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIwMTEy
+MDE3MjkwOFowLwYJKoZIhvcNAQkEMSIEIHMoGIYW1jZ3og6+h2AYkfGg2rpHhZsZmemWmE3IDYhJMA0GCSqGSIb3DQEBAQUABIIB
+AKD7FXnAlsYre0TAoy+2vE79irigXYDrEJvf4AFqnY8T568zni2e9LHEDlbuvfvY8yResEdMjZ5AdHGkDuvSC3htSqcxzOkIWWXL
+t02004pov1wzBt6J7AF8Wsax1r2XLBAunBVyKMMwMrEu4ZSSByx2nMyfSZRRVCkh7qqk8yuI3QYv05b/zEmcK9/8ZGeBfKMW9OYl
+BJUt+7s3y2LLkmy0hoToBP+xQhs978kpzmXStXLtDKI32wSpqrICLF2UL0SNzZAxNDRQfUDCB2CcCJh9+Uuj7nnbj52klXwjjWpy
+xrstvSILXiZMWjvnrCiwoD1l8EfGum3lwrVml9z4UOg=
+--1819269f-a9aa-4706-bbae-21417a553fed--
+Checksum: 4456b9c8eb01afe28a5c3e600416a3de5e6fb480d0f8881adbad3d600f7ec4e2
