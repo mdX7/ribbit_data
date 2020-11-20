@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="61951627-c94d-4f43-9f1f-95e36e681b9e"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: odinb/cdns
+
+--61951627-c94d-4f43-9f1f-95e36e681b9e
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 384387
+eu|tpr/odin|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/odin|level3.blizzard.com kr.cdn.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=4 http://kr.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/odin|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--61951627-c94d-4f43-9f1f-95e36e681b9e
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIwMTEy
+MDE3MjkwOFowLwYJKoZIhvcNAQkEMSIEIBfZke6pccL4StaJ8sXi+djHbOgA11eU/imwNHJthh7+MA0GCSqGSIb3DQEBAQUABIIB
+AJIyIiQxzc7dfc2Kmd33/b6T2QG5acxJuvuKGN7c5ipb3QlY9Oyx0uFfyx4nRu5iNGY3oKJ0urKDVtjIz8hbDys2cB7+AGZL4BJq
+OiKafJyO/QCBrVDXvhLzvQqexJa9sv1erbcMvaoWYXftoXeegbtrBO+XDp18RdU/noG43CFmDHUYDYdUxxDU/xANuWDPbhD1U0NU
+tzMuWCevwnqR2E124RuN0rW5lYIVyDksR9LPrT311a3EEl/ieH1rXrXyFF97kXf3FZeBct6YctD0XUaJahuE3CKUdh3w6Dsrccvp
+fhK97B/NoVwmWbGg9JoGCTsnfs1UA3Vw/r9TIdEV/DE=
+--61951627-c94d-4f43-9f1f-95e36e681b9e--
+Checksum: 19e123d7d15a38b26889193577db12010460fc071270ea80e2c4241a70a1b8ec
