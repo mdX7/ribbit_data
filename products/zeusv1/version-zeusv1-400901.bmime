@@ -1,0 +1,27 @@
+Content-Type: multipart/alternative; boundary="fa8769da-8e21-4dba-b317-2b84e631d70a"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: zeusv1/versions
+
+--fa8769da-8e21-4dba-b317-2b84e631d70a
+Content-Disposition: version
+
+Region!STRING:0|BuildConfig!HEX:16|CDNConfig!HEX:16|KeyRing!HEX:16|BuildId!DEC:4|VersionsName!String:0|ProductConfig!HEX:16
+## seqn = 400901
+us|af72025d99e282d070ec16d02926c058|976f953f2dde7f7c604593e60c198df2||8374868|main_clean_8374868_dev|dd139abd2c28d6c144a29550a3cdc26b
+eu|efeb8b40809315e0d72f96b3318a371b|976f953f2dde7f7c604593e60c198df2||8374868|main_clean_8374868_dev_esports|dd139abd2c28d6c144a29550a3cdc26b
+
+--fa8769da-8e21-4dba-b317-2b84e631d70a
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIwMTIw
+ODE4MDcxMFowLwYJKoZIhvcNAQkEMSIEILlnAao69YidMOMI+SMRArIZfN6nu/TW/tgED8RtTebDMA0GCSqGSIb3DQEBAQUABIIB
+AC12uNxeolzzWMGh/bFkIwsI1x1HuV4bABAy2Bz0i9XQHUaPQD+CdVkvzXeHdTzMRmvLfkkrpzsbn4VEWze/WP6qaHklpNlVXnHO
+4In3E2adawdW5VkmX6twnDCV8/Pc0tqyppHS2hmRpGVMO7qzzOIdtvl0xMWFZE5l40jQkARMB31vcWVO50U+imW+azhneX6yu9qt
+Q7lWng6bk858wYX7WYa2lqhMSRDjDDenrzT9WrT3o3Jn/ji0zus4OVXkJ6/bHBLaKs8shA0SKfhuoEm1NYbJW2/NrmSsajxzfRtK
+cxHelgNoKCqNbnAirNbdGdcS0g4qFjKRg3e7ohdvq8Q=
+--fa8769da-8e21-4dba-b317-2b84e631d70a--
+Checksum: 4861891520ed72f6d4a95f73a900c67afa46de9d3c83f2561f5e7e3749879338
