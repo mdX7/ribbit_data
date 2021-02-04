@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="9a2544eb-61c9-4448-a443-5ce1e6a8662b"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: zeusv1/versions
+
+--9a2544eb-61c9-4448-a443-5ce1e6a8662b
+Content-Disposition: version
+
+Region!STRING:0|BuildConfig!HEX:16|CDNConfig!HEX:16|KeyRing!HEX:16|BuildId!DEC:4|VersionsName!String:0|ProductConfig!HEX:16
+## seqn = 443919
+us|3bf4bb0b6ae06a90e90fd49b2345d4ae|e9b0b4248c47e9de047191d0c6dbac08||8583399|main_clean_8583399_dev|067ff3d9e73f0b7e3bb8449a445164f4
+eu|325ce7af42e6c86af17b9d46455b3da9|e9b0b4248c47e9de047191d0c6dbac08||8583399|main_clean_8583399_dev_esports|067ff3d9e73f0b7e3bb8449a445164f4
+kr|bfe698ac313f2075ccbf96dafc9791dc|e9b0b4248c47e9de047191d0c6dbac08||8497076|main_clean_raw_8497076_dev|067ff3d9e73f0b7e3bb8449a445164f4
+
+--9a2544eb-61c9-4448-a443-5ce1e6a8662b
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIxMDIw
+NDIzMjkxOFowLwYJKoZIhvcNAQkEMSIEIELNFbqVpdlvzJdnMf3AO5SvA/5BE0jOIaF5/M4J8ovFMA0GCSqGSIb3DQEBAQUABIIB
+AJE2q0n9ik6mQ9ZMeALGuijyjN+ZSnG2PJ/vBvgtVRNZkY2bMZ+F+BZm03ZNJwQhT8p3vIbdrSxaA/JuANnIV9HawXGZXR2Ls/q1
+F13/kFew1iJkJN3F0aEwslWEPD015Eh/CovkXU/X18rzRw6xFcUfeYcBFxgSr4XDP5db2E+f6MXOBK0leM/RV3sfGknCJDyLwztm
+nE7bL6iOCQ+YqEXE7RGjQPUFQWbDgIHhBV7NDpXAhZjEvr6ytr8LDWoEtjNKfZozaShGBpOeZP3T1ZS1s4kVzzf28SHCDhT4S1pg
+N5iTqX6iRPR4AQ/1fjFk6NLN/PhaLnW+7nBeCH8esx0=
+--9a2544eb-61c9-4448-a443-5ce1e6a8662b--
+Checksum: 14f15955fc5bad3e456ce2cc16ea255f4ec275c87c4d2d5456c1120ecbd8b2f8
