@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="f12938aa-3193-432d-9927-97ef8264e478"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: osiv1/cdns
+
+--f12938aa-3193-432d-9927-97ef8264e478
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 498178
+eu|tpr/osiv|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=5 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+kr|tpr/osiv|level3.blizzard.com kr.cdn.blizzard.com|http://kr.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=5 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+us|tpr/osiv|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5 https://us.cdn.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+
+--f12938aa-3193-432d-9927-97ef8264e478
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIxMDMy
+MjE5MjYzMlowLwYJKoZIhvcNAQkEMSIEIFAYyB+FKMfkjalDV8Lfl/NLajdTT32zs2GMr0NomV7hMA0GCSqGSIb3DQEBAQUABIIB
+AIxocWpGqBROSdf5WLeAo1EDYIKUUScTc5S6kQjkA7yBvgH5rHYfG1UT0KU45Pk/TCjlkq+BNjerU4DbDv/zYgIveEaRvFfY72vS
+WQFrx9/DOCJIu4AeL5SZIV35CEdgNefy/WDMF48fDKSarN3DuUwxgRD0vIsxYOIm2BC8uaMPkR9vNDyw721Bq+sCM9JRPcw+E4zS
+qHW9mLrC79HFIzH5g+lxBNXc8Wlb+fEXN8nsA4sci91IoLJ0dF2YMd3brvjrpH7DESPuAHggwXQ6amniwK8bmYud51HmpGXojeyk
+vyojn4+UaJvGpXlOUpNdNc+5NLkFGzuPa0U+A5FnzCs=
+--f12938aa-3193-432d-9927-97ef8264e478--
+Checksum: 38117af7e979f44525cc8daeb5168aedd5f9bccf7b37fecbd7a215d7d92b4643
