@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="d4392143-f99d-4e42-af1c-ed50736a6e93"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: osiv2/cdns
+
+--d4392143-f99d-4e42-af1c-ed50736a6e93
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 498179
+eu|tpr/osiv|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=5 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+kr|tpr/osiv|level3.blizzard.com kr.cdn.blizzard.com|http://kr.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=5 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+us|tpr/osiv|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5 https://us.cdn.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+
+--d4392143-f99d-4e42-af1c-ed50736a6e93
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIxMDMy
+MjE5MjYzMlowLwYJKoZIhvcNAQkEMSIEIFboqcY9eF6VkkGy+RnITM1CaS++bJp44u1s1XZHw+ABMA0GCSqGSIb3DQEBAQUABIIB
+AMDQDMqCycN1TeMF1cidjlOOLpl+26pGwHhd8tbxgLSRpyyJ6u/7JCwmSm9lAdPmfSGkDGDyk8TBQ8OrfLR68MLRHsYDhJkMQwYs
+3ESCq6MB99O8k+ew7KEDSRuwU7mHn6cy8XnfEpFAKkWS4f49RgwMsJ36UoPmqH11/q/9aowvUP52Ftht/6NpmLfl5X9vQLU9uBBU
+/fgGeTC5ECItYFdft3C9rv7jzN/kmgHdLB0OAuLTWcJM4WM7fL45SP4WHskPJ5x62wXTDVCorQR/jXjEur1GQf6QKljGXrlZCU9o
+OJsnIxzX5EdBd2f3seOqJFLTINB+pUNx0Wi7+WB5kmA=
+--d4392143-f99d-4e42-af1c-ed50736a6e93--
+Checksum: b9bf61aa59e463f02de2b2d9ae93d949b18b61f8188180675ae91d37b8f25e38
