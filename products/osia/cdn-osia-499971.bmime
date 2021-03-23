@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="122ac322-ffee-4446-a249-006d795c8aae"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: osia/cdns
+
+--122ac322-ffee-4446-a249-006d795c8aae
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 499971
+eu|tpr/osidev|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=5 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+kr|tpr/osidev|level3.blizzard.com kr.cdn.blizzard.com|http://kr.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=5 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+us|tpr/osidev|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5 https://us.cdn.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+
+--122ac322-ffee-4446-a249-006d795c8aae
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIxMDMy
+MzIwMjcxMFowLwYJKoZIhvcNAQkEMSIEIJl6HVUYfWeOT1zO6xOg9O4Ei2/Qi4ERvRSxWdd0d9N+MA0GCSqGSIb3DQEBAQUABIIB
+AMetpRk6RKElGCs+OSUCAUgB3GbDjLUVe2so7SQHthjZRDq5XP23eCZOZ8IpX/yrds/+WmivWyWiQdDqCTQI1MI00HyO585MXCBo
+7+m5Bus++LRdimmSspwpjvYjGc8HEGLYyzHaDHB4XFJ1qlif+trleYSTEfe+gK0VBJYZm+FUEaHzPvWP+LK4SMjGgYWQ0UiIeihe
+XZykDLeminBBXDC6VlN3erOgHn2DITIHFeWuZ0K0QuqMODCzJoR3UD0CiWjBF5oX67p80utrKVl/uG27UFOsj2Rm6AcLQ2di9rlv
+ovvtlOF5CK+Geq2cffdspLuBvfez3EuI5a0/xPpPSbA=
+--122ac322-ffee-4446-a249-006d795c8aae--
+Checksum: 39d5e5e88ceb9b965cb3615a679705a826f47f9417e5a66fd790df6402cbdc84
