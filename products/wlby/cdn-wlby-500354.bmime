@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="acbe5e95-d04d-40ef-b846-0970aca8fe3a"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: wlby/cdns
+
+--acbe5e95-d04d-40ef-b846-0970aca8fe3a
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 500354
+eu|tpr/wallaby|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=5 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+kr|tpr/wallaby|level3.blizzard.com kr.cdn.blizzard.com|http://kr.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=5 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+us|tpr/wallaby|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5 https://us.cdn.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+
+--acbe5e95-d04d-40ef-b846-0970aca8fe3a
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIxMDMy
+MzIzMzczM1owLwYJKoZIhvcNAQkEMSIEIOEblrpv83UnEJu5xo8gh/eKOnv2d3rVepsm2x/UGILKMA0GCSqGSIb3DQEBAQUABIIB
+ACeUumPuxFwPID1HYqGgcY3Tqt4sHKFlGh7H1ZmnFhLAIQx5j4mQGdhAj4RLZekbsk6yULbFw3FBQ7UCxdIqYyvw5uogwFFo/C/k
+32oK7zjHAQBs/3JnNqhUH9t9byNbbdLt5Y4eweE03kXvInZ0XHBJJ9kS6+hLbwrE37tIvm9JlHFgKQLtWBgWDk0At5ZMInS9rMV/
+eWB7wX+5YhjMqLNkB5zxDTOkDY14SIo5Rxmlb/3PU93QnMZ5Ap1ZnpQRKecKhwLBjuSUzdvntG0WL5lAcdFeV8nB+iOxqyPKARtn
+YizXTV0odbFBcrMXN63UeEbkMHOQV+pwZzLcuug5LM0=
+--acbe5e95-d04d-40ef-b846-0970aca8fe3a--
+Checksum: 686d96bd79820bf09e592e757a252848139c257b694215e79b48729c758509c3
