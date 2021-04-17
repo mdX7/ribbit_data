@@ -1,0 +1,27 @@
+Content-Type: multipart/alternative; boundary="040afc49-e47e-40a5-9b37-acf1f63b76e9"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: auksv6/cdns
+
+--040afc49-e47e-40a5-9b37-acf1f63b76e9
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 531015
+eu|tpr/auksv|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=5 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+us|tpr/auksv|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5 https://us.cdn.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+
+--040afc49-e47e-40a5-9b37-acf1f63b76e9
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIxMDQx
+NzAwMTQzOFowLwYJKoZIhvcNAQkEMSIEIIBHb4gJzOJGTDIvUskNoUqrZCUK58lAALSEhLU59zeCMA0GCSqGSIb3DQEBAQUABIIB
+AMVlRDt5r5a7Y5FTdW0A9v4ruSHDTprdDNDcvouPQr6A5FOtjlzLgOOdKHTx8Y71vK+ND63HFEr6WkBp1ol5CTnk3LwEUhUC2qg2
+WK6dV6T1cxo0hD36xjUPZ2j6mUVvXSUD9Nic66QaYWCW8hwxiQoVaDJ1GXiN0iZiLn3PnK53fK1hcbvEg1aQrf3X5VmgVPM0Z8lA
+CdtdPb6iOTtOWx+KBPzGXCN6dKYldgAuH5BYIBPi1GCd98+Z2HJIFe+ZOh7p0e24SkAAE+XY4g+BwUnf8FDdcfpGMPKc0PXUDc7V
++ipWSoH2sW+RQqV898PmgVlRG79OPMjfnCKwrfRHvjw=
+--040afc49-e47e-40a5-9b37-acf1f63b76e9--
+Checksum: ad8de606808b30ff34e3478c7392201c30bb1c8749571557707282c61da87867
