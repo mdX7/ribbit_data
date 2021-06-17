@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="815cd859-b1b3-4b0e-a0af-81e729046094"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: foredev/cdns
+
+--815cd859-b1b3-4b0e-a0af-81e729046094
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 607682
+eu|tpr/foredev|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+kr|tpr/foredev|level3.blizzard.com kr.cdn.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=5 http://kr.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=5 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+us|tpr/foredev|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5 https://us.cdn.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+
+--815cd859-b1b3-4b0e-a0af-81e729046094
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIxMDYx
+NzIzMDg1NFowLwYJKoZIhvcNAQkEMSIEIM2ikyKt1oeQsbm64e8JaVWz9Qha2U2UKOAGQodhtM5GMA0GCSqGSIb3DQEBAQUABIIB
+AFqtAVNDQQKkLo7chcoGFULr8gG0PPND6X1t/3mcxCEwo+VrlfsgrIf2KwJ6M2FxKgIwM2tLYKeV6PEsF6txRnsoJH669krroghM
+sazLLMD90nD8O9EjIAUYYDcr0HZ/0H+38LxiOj3fDeEsxR/3a1Mn1Y6tTj/6ChzZQg+rs/zdr6IdbGqPonWbZ3lT6tSofBqMSv2k
+P1oxiTWOLYUsrvpdK5GopgwiznG10aWwWVD7FgF95Z33BjYpob5cLXBJ4vomH6bFRKTgneTeYSD0F1FW6cPUIcqKkf5ESkwD4MRM
+1lPHY6yhiQK96pt8sdFH8E6C4A+AVmFQlhqND2lc9C0=
+--815cd859-b1b3-4b0e-a0af-81e729046094--
+Checksum: 894aeaea0e58dc0f37d3fedca61207d18a1bd5399bb414e7a3a5710af768c99c
