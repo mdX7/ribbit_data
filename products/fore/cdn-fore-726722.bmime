@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="1b52b851-7a01-4782-8318-9dae395a6ffa"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: fore/cdns
+
+--1b52b851-7a01-4782-8318-9dae395a6ffa
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 726722
+eu|tpr/fore|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/fore|level3.blizzard.com kr.cdn.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=4 http://kr.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/fore|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--1b52b851-7a01-4782-8318-9dae395a6ffa
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIxMDkx
+MzE3MTE0MlowLwYJKoZIhvcNAQkEMSIEILWHM13RvRwZVQzSG7GJFyd4gkjb70fP1yNGN6Q5Or9iMA0GCSqGSIb3DQEBAQUABIIB
+AHuBjxxbdlEG/lt/7TP/m7gABghKKU4ALhjJNybg0qDPXSL+fkV/78x3UFuxuEUzcQHQcb64OzC1MLweo7GZGVqVdQvq0j32TnSq
+RPRe4evNX7G5H76FBH7Jfs6D7p/JljqSi6apk/ZG7mufZSX4oRXisRfgXHGg2gflD4OpJilaSLRR+zWbYz/fcIi9YR72scONvTue
+UDf1UmkwWIXViMrFCO+nh/Q7woSdVanJKq8cG1oHBI5Rklc9JxOd2Rygtdblsn3yFazOuXBRHPk0inP7RMP9jdhYBxsXbqnSU35m
+PrD5BSPjqSjm9URtY2C8f3Ih8+KtEzhGFoHiPsL3cGw=
+--1b52b851-7a01-4782-8318-9dae395a6ffa--
+Checksum: 118d9c42940b47a88edd7b025e9cfc5a29c163a4af6a01367a7a1a76dadafd78
