@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="a0db5d01-3fa8-4a77-95df-abbbe944c074"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: osit/cdns
+
+--a0db5d01-3fa8-4a77-95df-abbbe944c074
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 879364
+eu|tpr/osi|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+kr|tpr/osi|level3.blizzard.com kr.cdn.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=5 http://kr.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=5 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+us|tpr/osi|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5 https://us.cdn.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+
+--a0db5d01-3fa8-4a77-95df-abbbe944c074
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIyMDEx
+MjA0MTQyM1owLwYJKoZIhvcNAQkEMSIEIDPcIWMv47JP1umJcgMzStfEa2fEQYDHLeh10uNNFWxqMA0GCSqGSIb3DQEBAQUABIIB
+ALdynGjMJuCMxoZWmauVcZSGv7G0rw0uaxVXhbJSSNQlmBgYk7LzPMFux/Gu13tNoeYCAeDTC3t5Vex9fowly6qPwbo3X9zSgl9W
+qUkpBVwMRprgowteZgGss51yvAGo68aluWhs5tfzZxCmkHsZ9C8V2a94RFM1/V2Z4RloFifzAKSWCshBSoMuAzCOc1JgVE5R3xSl
+3FpF0i+rEIf7UVSdTR3MRN2l7RkqCUgH8eaR83EBStaarAWhQC4EBsN0zv6rvnrvEFeZuq6Vwzggt8weuhg6bRabj0SWHoupmYqM
+lRo9UyJqX+esBt+jFIUpNrfX4XpwiBeppndMjaa3N5w=
+--a0db5d01-3fa8-4a77-95df-abbbe944c074--
+Checksum: c57554b9f110e71bc842a544c79731da9bae37aff64313d27944f8c5ee15b313
