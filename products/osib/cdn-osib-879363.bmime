@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="05daaa7d-4239-4732-b100-4cc72c75a348"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: osib/cdns
+
+--05daaa7d-4239-4732-b100-4cc72c75a348
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 879363
+eu|tpr/osi|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+kr|tpr/osi|level3.blizzard.com kr.cdn.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=5 http://kr.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=5 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+us|tpr/osi|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5 https://us.cdn.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+
+--05daaa7d-4239-4732-b100-4cc72c75a348
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIyMDEx
+MjA0MTQyM1owLwYJKoZIhvcNAQkEMSIEIH+q13A4KZ2KMGIEUmOxjR8kVBbGeBcmUgIsIzv9906xMA0GCSqGSIb3DQEBAQUABIIB
+AFR4QrVzHVuy5MT4kvtytqBPinwXOHOIu9uOAw4uP0ksGgbOA7T5peHnH5bmXP6ahD6mPDmSjEHkCJxoRlLqus70FzEfAtKKKYuu
+9h5mIfJmpymqf4wWVVE3RvqviyiZ0yll1wEpqwwtyyP5fk2mu+ZqzKaJ8xdqyn52S1EXnF7gmDCfH4/MwtjX5AfTKlKAykp41C5q
+MMffBVFU2ArQYHmTt1eOYzs4ZB2+K6apbLoOn3MEAQZEk8ETDoozyFElHxpaM4/q8IdNI61Wp51L6KSflqaJ/bAQ5vdyLX7Es2nt
++nGG3oM/JyMVaM0sJls7gpVs4UcnWhJEhKC6zR1dbLI=
+--05daaa7d-4239-4732-b100-4cc72c75a348--
+Checksum: 00380a6873f75a356fe35723eb32417a03b726165b641afe9c923e4186161bf8
