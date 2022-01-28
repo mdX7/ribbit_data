@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="c9777a5e-16c7-48dd-9c1b-4dca933492ad"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: spotdev/cdns
+
+--c9777a5e-16c7-48dd-9c1b-4dca933492ad
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 901698
+eu|tpr/spotdev|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+kr|tpr/spotdev|level3.blizzard.com kr.cdn.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=5 http://kr.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=5 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+us|tpr/spotdev|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5 https://us.cdn.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+
+--c9777a5e-16c7-48dd-9c1b-4dca933492ad
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIyMDEy
+ODIxMDQwM1owLwYJKoZIhvcNAQkEMSIEIM7xbQLLzzFbm6bWrXyoSdG80OooK+w3rcGx67iuWUhgMA0GCSqGSIb3DQEBAQUABIIB
+AKQlEoXoZJef7i8CotRtybSnELRmYws8c20nP1xjQBW/SsSk5tipE0V48YnacQsP0DDXJbs8QqzxuRx3S8Z8wh4T4E10K6dYySLQ
+bRy+g+VeFK/7oUIg+YT7huX9fnVc0Tsqm7n4Q6P8sLsVTN+xajH5CzXsI+hTzEpLaTFvp7JuhkvSflVAypO58eUJRQNYmnnF0TuC
+tgEmxXrOdaYkEwQz+F2i/OOibavL42yd84LjFuPyHoZFYbi+To3NlC1VPla7gz9XN94GS72OVesfjCQDeIfV4KJeb8izMIvy8S8u
+0uZDZAfgymfkmzNl6gWY2+0KE4IpTrZXOHQbq/ZRhE0=
+--c9777a5e-16c7-48dd-9c1b-4dca933492ad--
+Checksum: c2dab6a92a02ab21d6ab4fcdf88ff3f82ea101028c81e10c4d384ce67445a91d
