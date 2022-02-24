@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="8b1f4360-962b-4700-a720-f8b288a54e1b"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: hse1/cdns
+
+--8b1f4360-962b-4700-a720-f8b288a54e1b
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 939714
+eu|tpr/hse|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=5 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+kr|tpr/hse|level3.blizzard.com kr.cdn.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=5 http://kr.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=5 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=5 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+us|tpr/hse|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5 https://us.cdn.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+
+--8b1f4360-962b-4700-a720-f8b288a54e1b
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIyMDIy
+NDAxMDg0OFowLwYJKoZIhvcNAQkEMSIEIAodDSsw1s/HThXVQR9tXsPMahTNWQHIjz3bJdR3lLUBMA0GCSqGSIb3DQEBAQUABIIB
+AIwtdl8OXNLJqAR1/j61BzgtW/zJ8hOlIaF0swa28+o0Al/PxXnWDLHzF2kt3okbHLm73dXbYvZTHoC/NMesx5hAJx7sY4bm9jXo
+I4J+JmPBhuUkOgOCWfte+0komADFfNivQ+b7DoEAugDtzwoVJpfIM/Gk4UdcLAKotqHqQTTwYd836hkPjsBwtvsk74veq2V3HuaF
+G9WNz57u5k0Mp1Yb/nFhjr6h6QZuQt009zTtTiiZLHTDOF2MmurMBXJp4cspcHOLRIaz+81iNql5zexOSWxehkRgMfM8vtMVAz8e
+FXbRmnQmYEqy6UkFwBD3Pfk8C57IX80P+sew39Z0ot4=
+--8b1f4360-962b-4700-a720-f8b288a54e1b--
+Checksum: da3481393155b86288b9b9de2e42561db08afe9908486a8ab5acffe36cf8ca1e
