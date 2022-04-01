@@ -1,0 +1,30 @@
+Content-Type: multipart/alternative; boundary="d87d4a22-661c-4063-9b8a-a56af99a91a9"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: proc2/cdns
+
+--d87d4a22-661c-4063-9b8a-a56af99a91a9
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 1005445
+eu|tpr/ovw|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/ovw|level3.blizzard.com kr.cdn.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=4 http://kr.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+cn|tpr/ovw|client02.pdl.wow.battlenet.com.cn client05.pdl.wow.battlenet.com.cn|http://client02.pdl.wow.battlenet.com.cn/?maxhosts=4 http://client05.pdl.wow.battlenet.com.cn/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://client02.pdl.wow.battlenet.com.cn/?fallback=1&maxhosts=4 https://client05.pdl.wow.battlenet.com.cn/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/ovw|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+tw|tpr/ovw|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--d87d4a22-661c-4063-9b8a-a56af99a91a9
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIyMDQw
+MTE3MzY1MVowLwYJKoZIhvcNAQkEMSIEIHutD68+G4od4IGN8sXL6J0NZW87bwNWVdaxfSdJVdAiMA0GCSqGSIb3DQEBAQUABIIB
+AF1YBJqQvGzoW3kjuV515GLCbtd9+q75rWc+0WPLpArdCz9qld9M4zumLCAzyeyYSnv0GNoNP+NddKpgHcqvdHL04rmMfn92oUfz
+Xqrpt+cJIRBnucJKcIvHuaCwkcV24Ma1nCkiQvHw7rLVX4CGZrDA9gy3hPbEy7/3/ZNyFI61xAlHEMRGS4soyO863PcSJz8K6ju9
+NE80zRP7JX1yInKB+jEIHKilObXhJ10ikqMs7Hhxxt8R4Hq4J7LdaqpIVEed8GRpFffJ2jw92DlC9F1Ou6TvBnrhiGzA1rB3wTF+
+kgUkBhzxVMS+UlMDstwYwXcSPVkzEqRBmi3KXN7gLTQ=
+--d87d4a22-661c-4063-9b8a-a56af99a91a9--
+Checksum: bec33b3a16a791e6bd9a96c06fb841f618319ca616c9f2204e0edddd1f6fdb38
