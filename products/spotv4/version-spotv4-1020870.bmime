@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="5d567f2e-86ae-4da0-bd61-ddf8b3f2c14a"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: spotv4/versions
+
+--5d567f2e-86ae-4da0-bd61-ddf8b3f2c14a
+Content-Disposition: version
+
+Region!STRING:0|BuildConfig!HEX:16|CDNConfig!HEX:16|KeyRing!HEX:16|BuildId!DEC:4|VersionsName!String:0|ProductConfig!HEX:16
+## seqn = 1020870
+us|ad7cc066d8f150b2970cdb8abffba9b0|de330f2dced9b375982495b2143463fd||11355753|0.0.0.11355753d|81a820f924015aad447e8f27fc59d83c
+eu|ad7cc066d8f150b2970cdb8abffba9b0|de330f2dced9b375982495b2143463fd||11355753|0.0.0.11355753d|81a820f924015aad447e8f27fc59d83c
+kr|ad7cc066d8f150b2970cdb8abffba9b0|de330f2dced9b375982495b2143463fd||11355753|0.0.0.11355753d|81a820f924015aad447e8f27fc59d83c
+
+--5d567f2e-86ae-4da0-bd61-ddf8b3f2c14a
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIyMDQx
+MjEzMzQ1MVowLwYJKoZIhvcNAQkEMSIEIMj7n0Smw3/+y3BJszYYkxEfypMQ/rFxcYAkQwCR/zoBMA0GCSqGSIb3DQEBAQUABIIB
+AL6P0rpYJC7GhJUSRudxxKdbH+nUKbvVLZyjBSQvXXcsjsA43QWyV6r1tOvvoD24kLqsaehtY0lmJ2ZlXs5N1ufRP99hv1Cjbnly
+QBAMq4zMg9mnIzGw5IFuXDYH8M8/9cnsKaZaAq5fu/wTykavQRfdDJFHodoVb8Ve335YZ1EEmXzRyxtjl0Tiimg0PEgqedUkuMcf
+ya7ZHHeGBm9IyvR1xyQ93bzZTeHn4aOYuDMCq4SVrFlDuiXoaTxOhuFg8IG4VAYQOjd7hxZf82WQ0wFxU6wylrPr3OwGTkTDIBCt
+dFaOyqTv+b7nscwxVUAMqtIMPCyn4Awj1tAcXTuynSM=
+--5d567f2e-86ae-4da0-bd61-ddf8b3f2c14a--
+Checksum: 2fd428ecb509ed6530f6837162326a7bcc19ac3c09ee6e52c9c5ab485a6b8f56
