@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="1d2776cc-9b79-4a04-8c64-79c5115c9a35"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: wowv3/cdns
+
+--1d2776cc-9b79-4a04-8c64-79c5115c9a35
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 1028228
+eu|tpr/wowv|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/wowv|level3.blizzard.com kr.cdn.blizzard.com|http://kr.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/wowv|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--1d2776cc-9b79-4a04-8c64-79c5115c9a35
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIyMDQx
+NjAwMjY1MlowLwYJKoZIhvcNAQkEMSIEIBwdOlNNfGjs9jUBeKOMGCzZVYebnGxh/2RPLVgFdszUMA0GCSqGSIb3DQEBAQUABIIB
+AGo9jB72lxMap+GF4H1sb4JFj+vnFaXLkJ0UdLSvJjCClo3sDHx45Owzc0TndQWk0Xu5YNO4ffOd/j5nJAjdMdOjLGqx46S4sDAo
+r11AiFD4xD275I3FFZZkGWjDNBwDQPIiKEeuEEp8+qBAuIcI7jWWbV4M97Bht9xICXFLBJqpQIXcWgr3oOdL3Ajd0yApXeZtmIwA
+DxZHXI2L83FheyGdBSJgspNtagsLtL9Kh1dd0U3QdGJGYc/XbFslkSNG0mONCNQqA6UG5+lD9cRUdcjZ63D87eheAg2r14zdGQrr
+w32HLZCykGKMsKW+HM5uGna3kYX2qXnee9XPhxEilcE=
+--1d2776cc-9b79-4a04-8c64-79c5115c9a35--
+Checksum: 5b5d8045c17a57e657f4a6890c9290acc688435672ea2f336db7f88a39eedcda
