@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="eba549dd-e123-4568-948f-5d0209260ee5"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: odin/cdns
+
+--eba549dd-e123-4568-948f-5d0209260ee5
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 1029634
+eu|tpr/odin|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/odin|level3.blizzard.com kr.cdn.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=4 http://kr.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/odin|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--eba549dd-e123-4568-948f-5d0209260ee5
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIyMDQx
+ODIyMTgwNlowLwYJKoZIhvcNAQkEMSIEIFk/0gOnvFv/EKwQtpDPIZEIb4l5Y0Qv4W9zulJLQBxdMA0GCSqGSIb3DQEBAQUABIIB
+AEF25zJk49O99//CBpCemtXeidRPD4d3ktnkjoSDVUSKUgnpgpGnDjlLIQuEC6eCBb6VFaY90BGr8A4QCtGhxdRDL+yq1VEd7hbh
+G1w4Hr+7Y5lVuVFoaFDWYLTDW5msR1s/F5PP4ycBypAfmgcSQXNq24lkZp2MOxdB+d+e1yiSNUXalxqwD/GGUilNjA50klRz97pN
+ChnRuvqG7USMijoluEyR+UDaqt4dYrdtDwBIvGP8cq5osTpoTZY6x/36ZNfsrtmIM7TV57CN6LSnmetSZ+0qjP/rP/w+dsBDpuV3
+h+PTYJI0844aLEqVl9bmmGF39fMnzv+9QAPUsb/lAmk=
+--eba549dd-e123-4568-948f-5d0209260ee5--
+Checksum: 0ed9ef7b7532048421aee58c1c046573fb3360dee6f684a4aa1e17ec881e0650
