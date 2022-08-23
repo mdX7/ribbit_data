@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="53bbbfe0-6715-4b1d-807e-e61c45358353"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: aukst/cdns
+
+--53bbbfe0-6715-4b1d-807e-e61c45358353
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 1243907
+eu|tpr/auks|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/auks|level3.blizzard.com kr.cdn.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=4 http://kr.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/auks|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--53bbbfe0-6715-4b1d-807e-e61c45358353
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIyMDgy
+MzIyNDgwN1owLwYJKoZIhvcNAQkEMSIEIF29yDRyMbCnxzs9xtuvoTOh4YW66tYr2TAyq4WLenX4MA0GCSqGSIb3DQEBAQUABIIB
+AAEfVy5jraYEscJnNGGikhDJmz1npCzYLiBC5ABSGHnI8UW8HADHS26/t+tSReFrJkT3feM+U109mcGaTJaKxn0ABAeaWP6L9F/H
+me+fa+I3cWfyiDClk+PWny5QGaZeN7S8Xnj293ubJ24F2b9/2TqK5R1mF6cAzJcnm4utZgMAFKoosy8cUAKo+YIy4Q2oYtr4XqnH
+cym6usUXZlXlPMRaUjkbNVVALu9X0GEYGodlMgmP9LXuMahXXj0EAo3lwAazSH40jzg6RMenMXfR+ijNdRzMG+5BirYkfhy9NZqm
+jo7U6vRpG14UzlnqEL0o96Ps9mK8BdejCAZPUa2am5Q=
+--53bbbfe0-6715-4b1d-807e-e61c45358353--
+Checksum: 4fc6a21a1c7107ded8d33b720646b4774e6a4d469cc9903c8680f7c0fe44f975
