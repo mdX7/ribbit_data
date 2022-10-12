@@ -1,0 +1,26 @@
+Content-Type: multipart/alternative; boundary="a61886db-23ed-4d62-a488-c088fefb77fc"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: prolocv4/versions
+
+--a61886db-23ed-4d62-a488-c088fefb77fc
+Content-Disposition: version
+
+Region!STRING:0|BuildConfig!HEX:16|CDNConfig!HEX:16|KeyRing!HEX:16|BuildId!DEC:4|VersionsName!String:0|ProductConfig!HEX:16
+## seqn = 1337285
+us|f4d6eb5a0b0e760af5aa62ca2b0cc263|adaa9bac687ffe58c5c96a121bb0e8e5||106296|2.01.1.0.106296|db6fcc19abf08a927a83ce7c0515a28c
+
+--a61886db-23ed-4d62-a488-c088fefb77fc
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIyMTAx
+MjA1MDA1MFowLwYJKoZIhvcNAQkEMSIEIMiEogUkpd1v4lPt5bGOjuk60OTcgjwEyzI2mDTQei3ZMA0GCSqGSIb3DQEBAQUABIIB
+AINLW/FufrLwgEF65uyUGk5Cms/Dk2WVyaH6xQzQKw+zg9rs97X2jhbyo3RFkdCOLEzQrJjX3OqH9P8zxCZV7hThAEZZJeZlfKHZ
+uJtIkx21H0SFrN09v6TW67W7m6JAHrONQO/XqA11qcoZoNGjAROn8tauK6lSTHr0R+pOuMAL9/bdZJhQDoAUIPJUgGc6ZMMz/uYP
+xshPg7hlFZ5cdrhMO7xDb0yGMyrtVfnDsOhCOMbQJ1w866uruLlQmC27hS99t8rM2YuLSCDVFP546BQwvpFePAgihtmPVf5T72go
+EdUGZEZUfCo0gxu6CG8J2Zu1S/iaxYEMBAKmxVGMRXU=
+--a61886db-23ed-4d62-a488-c088fefb77fc--
+Checksum: 0c98cae8a1fe119f44d415d68a67540c1bca4e4f93547ebde751ac9439e3a00d
