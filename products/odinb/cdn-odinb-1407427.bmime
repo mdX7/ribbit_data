@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="3bb5be69-e511-47a3-8098-dd8d427c42f7"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: odinb/cdns
+
+--3bb5be69-e511-47a3-8098-dd8d427c42f7
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 1407427
+eu|tpr/odin|blzddist1-a.akamaihd.net level3.blizzard.com eu.cdn.blizzard.com|http://blzddist1-a.akamaihd.net/?maxhosts=5 http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/odin|level3.blizzard.com kr.cdn.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=4 http://kr.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/odin|blzddist1-a.akamaihd.net level3.blizzard.com us.cdn.blizzard.com|http://blzddist1-a.akamaihd.net/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--3bb5be69-e511-47a3-8098-dd8d427c42f7
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIyMTEx
+NzE3NDcwMlowLwYJKoZIhvcNAQkEMSIEIDK8EJ/S1/ppBXff6EtT7hCVew3tdsrh5Ksyip1MAXCCMA0GCSqGSIb3DQEBAQUABIIB
+AF0Gw30UQPGS0vcFoEkmnD6NpQFjMdxZffU38ZZ51TLnDb0SwD0I1DrNOxKcmdFIGtvSgZYYPmR4bmenfArJwlesXB74roMyI8hB
+yAHIKwsBTd93kA2md5lm9ti9ed5QPKeFvuMufQePiPONUmCnUbqaY+JMI7biuCw/qi98JOqrJCHzUDu+lcrETNJk0noDr5mgHKuH
+FLhhFmK4PhDEKc4bjjhkjIfutizrl8zS1dq/Q2N/TiOu6pLQrgxyUcAqTLKqEKvgEbJ4jI/4gKZ8UcoFk/RRoQxqNbY1eP8xfv0V
+9Gdzqgy2ESJosQ5be6R2Lsa0KhqdgFMrf9IqO0W3s+k=
+--3bb5be69-e511-47a3-8098-dd8d427c42f7--
+Checksum: f93df96c94b7aaef45877e45c15b28b1f6fa822cf8a2f8fecfcffc39a7fb5042
