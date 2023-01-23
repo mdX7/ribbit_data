@@ -1,0 +1,29 @@
+Content-Type: multipart/alternative; boundary="eaa56f1a-b65d-4569-8512-1357228c0f88"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: agent/cdns
+
+--eaa56f1a-b65d-4569-8512-1357228c0f88
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 1476930
+eu|tpr/bnt001|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/bnt001|level3.blizzard.com kr.cdn.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=4 http://kr.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/bnt001|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+tw|tpr/bnt001|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--eaa56f1a-b65d-4569-8512-1357228c0f88
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIzMDEy
+MzE3MDcxMlowLwYJKoZIhvcNAQkEMSIEIJKtF4A9bzPPN3YVRzSlITDUOSNn9a+nxpZL/i7nprfpMA0GCSqGSIb3DQEBAQUABIIB
+AJX4w+kS3jUMAobsAKktVTOh29mUADi8HuroqWJaUk+gR6Up73oSFTcj+qJUEAOl2A8ID/6YyYdcBuf9YGS50uKNh4u7p19hpe1Q
+TMKXLLzbR4gwQnut+ZqnG8+n+EwSRUTYPaA6DeslJh2ZbRGVAbQttKIvrchVc+qdh/ASLMGal16xAGu4vZBsSYsG6Y7HYyoLwGNQ
+xaV+DcbfLKuCEcjMTn0HxkIVRKlHeIUDYP/Aihr+8m3XXWKeS69/YfPnoNscLoHL4DqBsuFTSKQXW91Aiz5rD5h/qkgIVs6dduRE
+ybE4AkpbKG8dNyczdAHIn9B7sP7B+pTxN4Nz6dgiUQ4=
+--eaa56f1a-b65d-4569-8512-1357228c0f88--
+Checksum: 1fd3449b451b07d131fffb07861d522b797ee7df52b63984a5349d9badfa967d
