@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="754bc0af-b30a-4db5-bbae-554a173453cb"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: auksesp/cdns
+
+--754bc0af-b30a-4db5-bbae-554a173453cb
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 1647557
+eu|tpr/auks|blzddist1-a.akamaihd.net level3.blizzard.com eu.cdn.blizzard.com|http://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+kr|tpr/auks|level3.blizzard.com kr.cdn.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=4 http://kr.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=4 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://blzddistkr1-a.akamaihd.net/?fallback=1&maxhosts=4 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+us|tpr/auks|blzddist1-a.akamaihd.net level3.blizzard.com us.cdn.blizzard.com|http://blzddist1-a.akamaihd.net/?fallback=1 http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://blzddist1-a.akamaihd.net/?fallback=1&maxhosts=4 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=4 https://us.cdn.blizzard.com/?fallback=1&maxhosts=4|tpr/configs/data
+
+--754bc0af-b30a-4db5-bbae-554a173453cb
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIzMDUx
+MDE3NTI1N1owLwYJKoZIhvcNAQkEMSIEIMSAvj2g61vS14mJCYuECmch6axkr5z24RYQFY8liGrtMA0GCSqGSIb3DQEBAQUABIIB
+AD4XuA05LvEIWKDMkUZFBk/SYO/SEe3UZVD+cVlYUnMswYli8BqkQWfoeFo/DaI+wJ608yCeFAQxb9B5FBm0H9STIjL/Y8J3V91Q
+AtS3SsUqpUQmRMvYlk5EaeHiav4fVBBK+8gPy5UuHYBwjzKtX+AW9W8HltjlqLZ71eu5vpsOhayCNADPCDUjA1h1Xye7WD0WiNAC
+9LlLe016TnijFlPvEVh/EX0QTFrxNEooOWbNLkiutEmwaK8WPV/9rQ+uIOA622CzVKZD63N0GdWtdT79memf4CiKFQq43KMUbgxk
+Xi5UXzm6ULp47XAqyOSofwhUkqmMXhTfJpvuCDilk4o=
+--754bc0af-b30a-4db5-bbae-554a173453cb--
+Checksum: e4c548028fe2a60ddfb99be80e8ae2da642aef04dac339f5090568579ed304f6
