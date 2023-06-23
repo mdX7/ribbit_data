@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="f3e1e9a3-de32-4302-bdd7-c0703fc0000b"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: auksv3/versions
+
+--f3e1e9a3-de32-4302-bdd7-c0703fc0000b
+Content-Disposition: version
+
+Region!STRING:0|BuildConfig!HEX:16|CDNConfig!HEX:16|KeyRing!HEX:16|BuildId!DEC:4|VersionsName!String:0|ProductConfig!HEX:16
+## seqn = 1716125
+us|23ba4def811f1199840a5d760c31d318|c3338dd4a7e5fa1dab0a029c342f29aa||15010153|1.5.0.15010153d|d77247244b519fb5ba5d3f97cfc9ec99
+eu|5c6b356004255dc7aac40095ce390edb|c3338dd4a7e5fa1dab0a029c342f29aa||14961416|1.7.0.14961416d|d77247244b519fb5ba5d3f97cfc9ec99
+kr|266eaf974408acbf45f4a9476e635e4e|c3338dd4a7e5fa1dab0a029c342f29aa||14947593|1.16.0.14947593d|d77247244b519fb5ba5d3f97cfc9ec99
+
+--f3e1e9a3-de32-4302-bdd7-c0703fc0000b
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIzMDYy
+MzAwNTcwM1owLwYJKoZIhvcNAQkEMSIEIKeTJ2CI/Nw1657Zz8ap9LyoeGAdWSuQys8DYrP/yeKDMA0GCSqGSIb3DQEBAQUABIIB
+AHS4SfOEmTh9Ek26NYuDtBxqrwr9zhYnMSm6z9sGL2Mfyk26We/X3g6NyhnY2YxpYMk+ROzPOpeGjj2GGwfV4XYCRIrWYxsebdRm
+Th58CT63cHJfT3IDOFfOuVENzaUlojRZQ9jChfBtwgpWW8SCw9e/NPFB84YtJFKmZVLcpdE2hF7WJFiM/q5KKl82/hr71PtRrIsY
+DoKeN39qnqwCVXy2n3ew/eMzQLaZBsRXeG6L0mxSfSP7y/q9z9zZy7heV2BP/36O/NznGx69wZJpTCzabZYkOX0esboGMKvNo3O4
++b0OMwP2GsrhXV1Hb9RMSoFskcwgrP1Ai200GCLr/0A=
+--f3e1e9a3-de32-4302-bdd7-c0703fc0000b--
+Checksum: fcd361c64b3b1eaebb936ddca1ab56fdf6e1a07bbc0e1868a8fcf574c9757c94
