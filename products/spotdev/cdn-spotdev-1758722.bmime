@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="7f5285de-67f1-4b6d-9f0c-b562036a7431"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: spotdev/cdns
+
+--7f5285de-67f1-4b6d-9f0c-b562036a7431
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 1758722
+eu|tpr/spotdev|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+kr|tpr/spotdev|level3.blizzard.com kr.cdn.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=5 http://kr.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=5 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+us|tpr/spotdev|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5 https://us.cdn.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+
+--7f5285de-67f1-4b6d-9f0c-b562036a7431
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIzMDcy
+MTIyMDA1N1owLwYJKoZIhvcNAQkEMSIEIIBB1Si8m9yo/gJjs01H5CmrnpbSvfh8oCajMDdH4RfFMA0GCSqGSIb3DQEBAQUABIIB
+AJJygLSkV3SZrZ1Zgu8XZmNeiRFvN+4B1F2wCPfrgGjdWtjrcDBwySOmSaHwZrwxEFQfXADb1ZaRnEtfvT75xV6Hwz9YtN45+Jsg
+lAS3PGdYiYY1jMUJpYQj2335/n/lMt/pcAARIrB5s8gJEJ5oCgnvtScvgmzGvSaaiVj/3CjEWFaF6Nj751RdwHO+bQ+p1d5WjhAa
+SVLGursZVVDL80sF5e40MVQIoHWVxPtPAT8AURQ4twxHfedvjf4K29zu0UTDTrxGF1Sic98Y9YzdEZVXdAP90gvXP9nfVTObSvjf
+sNTxaGmx7Up5uO7S1OAFRT3RmMhZ+MPGbRPtJ82+nns=
+--7f5285de-67f1-4b6d-9f0c-b562036a7431--
+Checksum: 13b13eabdd8332fb30d4cc5b626116e1391d82dab2c00aa1391f98e5880956ab
