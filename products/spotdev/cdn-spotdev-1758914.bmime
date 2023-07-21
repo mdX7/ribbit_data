@@ -1,0 +1,28 @@
+Content-Type: multipart/alternative; boundary="85b67954-f6c3-45d0-958e-c9c6250482f7"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: spotdev/cdns
+
+--85b67954-f6c3-45d0-958e-c9c6250482f7
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 1758914
+eu|tpr/spotdev|level3.blizzard.com eu.cdn.blizzard.com|http://eu.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://eu.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+kr|tpr/spotdev|level3.blizzard.com kr.cdn.blizzard.com blizzard.gcdn.cloudn.co.kr|http://blizzard.gcdn.cloudn.co.kr/?maxhosts=5 http://kr.cdn.blizzard.com/?maxhosts=5 http://level3.blizzard.com/?maxhosts=5 https://blizzard.gcdn.cloudn.co.kr/?fallback=1&maxhosts=5 https://kr.cdn.blizzard.com/?fallback=1&maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+us|tpr/spotdev|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=5 http://us.cdn.blizzard.com/?maxhosts=5 https://level3.ssl.blizzard.com/?fallback=1&maxhosts=5 https://us.cdn.blizzard.com/?fallback=1&maxhosts=5|tpr/configs/data
+
+--85b67954-f6c3-45d0-958e-c9c6250482f7
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIzMDcy
+MTIyMDg0OVowLwYJKoZIhvcNAQkEMSIEIOQqi3LQbWHHNR5LpzbcnIKddaSNDq5j0sxoh1uEX1muMA0GCSqGSIb3DQEBAQUABIIB
+ALLmEhyk5ymnmkUz8767601+KXOM4zfq3CA/EE/RcKpk4kp4xdy6gGcRZx1ZfU4jDurKZnPT+Zu4XKwD6oU1MqfaaYSuhS3/9hLr
+p40XMLZYA20SN2yQs4z6PnsYwQWBeZRKguapbj2jD5wHEMBUsATXuQXKpto4ZuRJlWTy0fptgmZV7myVHbelyTJohZgrqYfAZTr+
+N9GYCQPtL0vq3E0sYuimSI5+mXGXUOp5s83Rjiahry/ibZAZXNdEFHspgXgkSzdp1RIJI0i+Xlfjy1mtQ1IzZ6tcfyEVFJKPrpVl
+K5ByBvAgMt89INE5lpZAzoUQcaFMvPL5ZdAfcivbwNs=
+--85b67954-f6c3-45d0-958e-c9c6250482f7--
+Checksum: 2c3a778227b8e1e4ba9a03a53eb7083372da35cd6c00d014df9c03589b6504ff
