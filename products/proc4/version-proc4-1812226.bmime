@@ -1,0 +1,29 @@
+Content-Type: multipart/alternative; boundary="faafcd12-cb15-422d-af45-9f378341b99f"
+MIME-Version: 1.0
+From: Version Service/1.0
+Subject: proc4/versions
+
+--faafcd12-cb15-422d-af45-9f378341b99f
+Content-Disposition: version
+
+Region!STRING:0|BuildConfig!HEX:16|CDNConfig!HEX:16|KeyRing!HEX:16|BuildId!DEC:4|VersionsName!String:0|ProductConfig!HEX:16
+## seqn = 1812226
+us|20364a4369b4883b13c364196ea06645|21bd53abc10fea3f76642aae2fd80cb0||116250|2.6.0.2.116250|8ffbecf384d8ad5a617736af764b1d3e
+eu|20364a4369b4883b13c364196ea06645|21bd53abc10fea3f76642aae2fd80cb0||116250|2.6.0.2.116250|8ffbecf384d8ad5a617736af764b1d3e
+cn|20364a4369b4883b13c364196ea06645|21bd53abc10fea3f76642aae2fd80cb0||116250|2.6.0.2.116250|8ffbecf384d8ad5a617736af764b1d3e
+kr|20364a4369b4883b13c364196ea06645|21bd53abc10fea3f76642aae2fd80cb0||116250|2.6.0.2.116250|8ffbecf384d8ad5a617736af764b1d3e
+
+--faafcd12-cb15-422d-af45-9f378341b99f
+Content-Transfer-Encoding: Base64
+Content-Type: application/pkcs7-signature
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIzMDgy
+MjE4MjI0MFowLwYJKoZIhvcNAQkEMSIEIHVQ8wp7jZ4fbL8YoYQyCtY9R9VnL9ZGnU0XZfepUKuuMA0GCSqGSIb3DQEBAQUABIIB
+AHR6BrBgXfYMPyqmXwJQIDxMI7dx1l9dEkjGLJz8H8WQcbXU/tRLUeS6sxODyCPfJe6TLNHVhUtE7TaEKnoiwHtQMI91oOjoVxPG
+bqgGnwRijD3sUxA0oGxFZVmPescGgVN+1djShuK/lttD4x55HzHXi5HZy/VdDx8pMM3Vy/iSTMFS8dwbCbD0h0Af4kzxC+lK10gx
+g/t/hw8pCV+HRc8AbF55qVA8MQ/tk1D9KI48+XdnnXEpOyelsoSOyApUb+TI2BRL31Tqi1aFHIiV/EFkthf3Lgpf+mjjn1LIKrqK
+HuKt9E944EkTIHvj0uYA0QovOMEeDWoajNiEuZKeTcE=
+--faafcd12-cb15-422d-af45-9f378341b99f--
+Checksum: fd9069c004ede1ed33f56a30d3b5fac12df130fb60e25ae7477145ff4973b8ca
