@@ -1,0 +1,28 @@
+Subject: prodevops/cdns
+From: Version Service/1.0
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="ee05327f-7789-4f75-af25-d8cfb2a5e082"
+
+--ee05327f-7789-4f75-af25-d8cfb2a5e082
+Content-Disposition: cdn
+
+Name!STRING:0|Path!STRING:0|Hosts!STRING:0|Servers!STRING:0|ConfigPath!STRING:0
+## seqn = 2770698
+us|tpr/proc3|level3.blizzard.com us.cdn.blizzard.com|http://level3.blizzard.com/?maxhosts=4 http://us.cdn.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?maxhosts=4&fallback=1 https://level3.ssl.blizzard.com/?fallback=1 https://us.cdn.blizzard.com/?maxhosts=4&fallback=1|tpr/configs/data
+eu|tpr/proc3|blzddist1-a.akamaihd.net level3.blizzard.com eu.cdn.blizzard.com|http://blzddist1-a.akamaihd.net/?maxhosts=4&fallback=1 http://eu.cdn.blizzard.com/?maxhosts=4 http://level3.blizzard.com/?maxhosts=4 https://blzddist1-a.akamaihd.net/?maxhosts=4&fallback=1 https://eu.cdn.blizzard.com/?maxhosts=4&fallback=1 https://level3.ssl.blizzard.com/?maxhosts=4&fallback=1|tpr/configs/data
+cn|tpr/proc3|blzdist-ow.necdn.leihuo.netease.com|http://blzdist-ow.necdn.leihuo.netease.com/?maxhosts=4 https://blzdist-ow.necdn.leihuo.netease.com/?maxhosts=4&fallback=1|tpr/configs/data
+
+--ee05327f-7789-4f75-af25-d8cfb2a5e082
+Content-Type: application/pkcs7-signature
+Content-Transfer-Encoding: Base64
+Content-Disposition: signature
+
+MIIB3gYJKoZIhvcNAQcCoIIBzzCCAcsCAQMxDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYIBqDCCAaQCAQOAFHgqinELlQQh
+EnJQo+kbdRyjVuICMAsGCWCGSAFlAwQCAaBpMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTI1MDMx
+MzE5MDY1NlowLwYJKoZIhvcNAQkEMSIEIKG7GXNeKiL2Pz2/1oc/yjb5osFxNqZcIEbjmZIALfuFMA0GCSqGSIb3DQEBAQUABIIB
+ADKsm/7adWMCPntc2w3kX5kStW8DumqKpyKhOJ3JtASTxBo7Y7rHkl301EKVeHpdcYdx5HWdSdq2+1ZW9QGpUO361jjDaeTPpA9/
++GIU7+sfer8irq0n6ywJd9+Mg/2mfxgsp48KNbuuTgFEH20jw0mqbqFXoISZjlGIhXX0W++IA+xWa/I0tHFdKQ4LGnV3K7C6HwZL
+GAqHTzBnFU59uom89VX2nEtxq79dj33gCddxFlU50cgiktbCk/beCmxQGooZuxM6Hmrb0g31AmV4Bktk0DPlWeUcwBbZ933bfk0k
+ud6kahawt9BnL5gS/nFX7ZfCrBUdK22vpD3lbR+3qWY=
+--ee05327f-7789-4f75-af25-d8cfb2a5e082--
+Checksum: 3442d485b6b9f44fa0fdd2442b02dc641fad662c7af8200a8c4587d0c1052e1f
